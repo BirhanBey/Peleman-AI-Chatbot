@@ -1,0 +1,2914 @@
+{
+    "categories": {
+      "4": {
+        "id": "binding",
+        "name": "Binding",
+        "description": "Binding",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/binding/"
+      },
+      "5": {
+        "id": "boxes",
+        "name": "Boxes",
+        "description": "Boxes",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/boxes/"
+      },
+      "8": {
+        "id": "calendars",
+        "name": "Calendars",
+        "description": "Calendars",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/calendars/"
+      },
+      "17": {
+        "id": "hard-cover-tools-accessories",
+        "name": "Hard Cover Tools &amp; Accessories",
+        "description": "Hard Cover Tools &amp; Accessories",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/hard-cover-tools-accessories/"
+      },
+      "18": {
+        "id": "hard-covers",
+        "name": "Hard Covers",
+        "description": "Hard Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/hard-covers/"
+      },
+      "22": {
+        "id": "infinitylayflat",
+        "name": "Infinity Lay-flat",
+        "description": "Infinity Lay-flat",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/infinitylayflat/"
+      },
+      "23": {
+        "id": "lay-flat-covers",
+        "name": "Lay-flat Covers",
+        "description": "Lay-flat Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-covers/"
+      },
+      "24": {
+        "id": "lay-flat-hard-covers",
+        "name": "Lay-flat Hard Covers",
+        "description": "Lay-flat Hard Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-hard-covers/"
+      },
+      "25": {
+        "id": "lay-flat-machines",
+        "name": "Lay-flat Machines",
+        "description": "Lay-flat Machines",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-machines/"
+      },
+      "26": {
+        "id": "lay-flat-paper",
+        "name": "Lay-flat Paper",
+        "description": "Lay-flat Paper",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-paper/"
+      },
+      "27": {
+        "id": "machineless-binding",
+        "name": "Machineless Binding",
+        "description": "Machineless Binding",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/machineless-binding/"
+      },
+      "33": {
+        "id": "ondemandcasem",
+        "name": "On-demand Casemaking",
+        "description": "On-demand Casemaking",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/ondemandcasem/"
+      },
+      "34": {
+        "id": "ondemandpers",
+        "name": "On-demand Personalization",
+        "description": "On-demand Personalization",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/ondemandpers/"
+      },
+      "36": {
+        "id": "perfect-meeting-concept",
+        "name": "Perfect Meeting Concept",
+        "description": "Perfect Meeting Concept",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/perfect-meeting-concept/"
+      },
+      "41": {
+        "id": "photo-panels",
+        "name": "Photo Panels",
+        "description": "Photo Panels",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/photo-panels/"
+      },
+      "42": {
+        "id": "photoproducts",
+        "name": "Photo Products",
+        "description": "Photo Products",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/photoproducts/"
+      },
+      "45": {
+        "id": "presentation-box",
+        "name": "Presentation Box",
+        "description": "Presentation Box",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/presentation-box/"
+      },
+      "48": {
+        "id": "printcovers",
+        "name": "Print Covers",
+        "description": "Print Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/printcovers/"
+      },
+      "49": {
+        "id": "printinaccessor",
+        "name": "Print-in Accessories",
+        "description": "Print-in Accessories",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/printinaccessor/"
+      },
+      "53": {
+        "id": "printing",
+        "name": "Printing",
+        "description": "Printing",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/printing/"
+      },
+      "57": {
+        "id": "punch-binding",
+        "name": "Punch Binding",
+        "description": "Punch Binding",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/punch-binding/"
+      },
+      "61": {
+        "id": "thermal-binding",
+        "name": "Thermal Binding",
+        "description": "Thermal Binding",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/thermal-binding/"
+      },
+      "62": {
+        "id": "thermal-binding-accessories",
+        "name": "Thermal Binding Accessories",
+        "description": "Thermal Binding Accessories",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/thermal-binding-accessories/"
+      },
+      "65": {
+        "id": "uncategorized",
+        "name": "Uncategorized",
+        "description": "",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/uncategorized/"
+      },
+      "66": {
+        "id": "accessories",
+        "name": "Accessories",
+        "description": "Accessories",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/accessories/"
+      },
+      "68": {
+        "id": "bamboo-collection",
+        "name": "Bamboo Collection",
+        "description": "Bamboo Collection",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/bamboo-collection/"
+      },
+      "69": {
+        "id": "binding-covers",
+        "name": "Binding Covers",
+        "description": "Binding Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/binding-covers/"
+      },
+      "70": {
+        "id": "binding-systems",
+        "name": "Binding Systems",
+        "description": "Binding Systems",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/binding-systems/"
+      },
+      "72": {
+        "id": "displays",
+        "name": "Displays",
+        "description": "Displays",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/displays/"
+      },
+      "74": {
+        "id": "flat-bed-foil-printer",
+        "name": "Flat-bed Foil Printer",
+        "description": "Flat Bed Foil Printer",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/flat-bed-foil-printer/"
+      },
+      "75": {
+        "id": "hard-cover-basic",
+        "name": "Hard Cover Basic",
+        "description": "Hard Cover Basic",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/hard-cover-basic/"
+      },
+      "76": {
+        "id": "hard-cover-maker",
+        "name": "Hard Cover Maker",
+        "description": "Hard Cover Maker",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/hard-cover-maker/"
+      },
+      "79": {
+        "id": "lay-flat-flex-covers",
+        "name": "Lay-flat Flex Covers",
+        "description": "Lay-flat Flex Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-flex-covers/"
+      },
+      "80": {
+        "id": "lay-flat-soft-covers",
+        "name": "Lay-flat Soft Covers",
+        "description": "Lay-flat Soft Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-soft-covers/"
+      },
+      "81": {
+        "id": "lay-flat-spine-covers",
+        "name": "Lay-flat Spine Covers",
+        "description": "Lay-flat Spine Covers",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/lay-flat-spine-covers/"
+      },
+      "83": {
+        "id": "magnets",
+        "name": "Magnets",
+        "description": "Magnets",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/magnets/"
+      },
+      "85": {
+        "id": "organising-tools",
+        "name": "Organising Tools",
+        "description": "Organising Tools",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/organising-tools/"
+      },
+      "86": {
+        "id": "panels",
+        "name": "Panels",
+        "description": "Panels",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/panels/"
+      },
+      "88": {
+        "id": "peleman-box",
+        "name": "Peleman Box",
+        "description": "Peleman Box",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/peleman-box/"
+      },
+      "89": {
+        "id": "personalisation-systems",
+        "name": "Personalisation Systems",
+        "description": "Personalisation Systems",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/personalisation-systems/"
+      },
+      "90": {
+        "id": "photo-books",
+        "name": "Photo Books",
+        "description": "Photo Books",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/photo-books/"
+      },
+      "91": {
+        "id": "photo-kiosk",
+        "name": "Photo Kiosk",
+        "description": "Photo Kiosk",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/photo-kiosk/"
+      },
+      "92": {
+        "id": "photoprintme",
+        "name": "Photoprintme",
+        "description": "Photoprintme",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/photoprintme/"
+      },
+      "93": {
+        "id": "print-in",
+        "name": "Print-in",
+        "description": "Print-in",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/print-in/"
+      },
+      "94": {
+        "id": "punch-binding-systems",
+        "name": "Punch Binding Systems",
+        "description": "Punch Binding Systems",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/punch-binding-systems/"
+      },
+      "95": {
+        "id": "resin-photo",
+        "name": "Resin Photo",
+        "description": "Resin Photo",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/resin-photo/"
+      },
+      "97": {
+        "id": "retail-product-range",
+        "name": "Retail Product Range",
+        "description": "Retail Product Range",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/retail-product-range/"
+      },
+      "98": {
+        "id": "spine-maker-press",
+        "name": "Spine Maker Press",
+        "description": "Spine Maker Press",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/spine-maker-press/"
+      },
+      "100": {
+        "id": "thermal-binding-machines",
+        "name": "Thermal Binding Machines",
+        "description": "Thermal Binding Machines",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/thermal-binding-machines/"
+      },
+      "102": {
+        "id": "video-book",
+        "name": "Video Book",
+        "description": "Video Book",
+        "thumbnail": "",
+        "url": "https://staging.peleman.com/product-category/video-book/"
+      }
+    },
+    "products": [
+      {
+        "id": "226673",
+        "name": "(C) Peleman Box A4 - 45mm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box"
+        ],
+        "description": "\u003Cp\u003EThis premium box with a magnetic closure can be used in a variety of special ways as a cherished keepsake:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\r\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\r\n\u003Cli\u003Ea surprise box\u003C/li\u003E\r\n\u003Cli\u003Ea product launch\u003C/li\u003E\r\n\u003Cli\u003Ea gift box\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\r\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/10/peleman_box_white-wbpbpba445-300x300.jpg",
+        "price": "&euro;&nbsp;7,82 &ndash; &euro;&nbsp;9,29 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "226325",
+        "name": "(C) Peleman Box A4 - 90mm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box"
+        ],
+        "description": "\u003Cp\u003EThe Peleman Box is a brand new solution created to leave a lasting and unforgettable impression. The box is easy to assemble, fully customisable, and flat-packed for easy storage. The box has a magnetic closure and can be used in a variety of special way as a cherished keepsake.\u003C/p\u003E\r\n\u003Cul\u003E\r\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\r\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\r\n\u003Cli\u003Ea surprise box\u003C/li\u003E\r\n\u003Cli\u003Ea product launch\u003C/li\u003E\r\n\u003Cli\u003Ea gift box\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\r\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/10/peleman_box_white-wbpbpba490-300x300.jpg",
+        "price": "&euro;&nbsp;9,02 &ndash; &euro;&nbsp;10,50 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Flower",
+              "Ocean",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "Flower",
+              "Ocean",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "220294",
+        "name": "Peleman Box A5 - 40mm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box"
+        ],
+        "description": "\u003Cp\u003EThis premium box with a magnetic closure can be used in a variety of special ways as a cherished keepsake:\u003C/p\u003E\r\n\u003Cul\u003E\r\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\r\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\r\n\u003Cli\u003Ea surprise box\u003C/li\u003E\r\n\u003Cli\u003Ea product launch\u003C/li\u003E\r\n\u003Cli\u003Ea gift box\u003C/li\u003E\r\n\u003C/ul\u003E\r\n\r\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/peleman_box_white-wbpbpba540-300x300.jpg",
+        "price": "&euro;&nbsp;7,17 &ndash; &euro;&nbsp;7,41 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "209314",
+        "name": "Thermal Hard Cover A5 Portrait",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-hard-covers"
+        ],
+        "description": "\u003Cp\u003EThermal Hard Covers are ultra robust, premium quality covers. These binding covers are the ideal solution for creating customised and permanently bonded, durable presentation material. With the Thermal Binding systems you can crimp the spine for an optimal fit. The Thermal Hard Cover is available in A5, A4 and A3, in a range of colours.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as SteelBook, UniCover Hard.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/unicovers_hard_a5_waaier-wbpb25290a5-300x300.jpg",
+        "price": "&euro;&nbsp;5,83 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Azur",
+              "Black",
+              "Bordo",
+              "Dark Blue",
+              "Dark Green",
+              "Quartz",
+              "White Pearl"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "208336",
+        "name": "(C) Thermal Hard Cover A4 Portrait",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-hard-covers"
+        ],
+        "description": "Thermal Hard Covers are ultra robust, premium quality covers. These binding covers are the ideal solution for creating customised and permanently bonded, durable presentation material. With the Thermal Binding systems you can crimp the spine for an optimal fit. The Thermal Hard Cover is available in different sizes and colours.\r\n\r\n&nbsp;\r\n\r\nThis product was formerly known as SteelBook, UniCover Hard.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/10/25290a4-thermal-hard-cover-wbpb25290a4-300x300.jpg",
+        "price": "&euro;&nbsp;7,19 &ndash; &euro;&nbsp;8,22 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Azur",
+              "Black",
+              "Bordo",
+              "Dark Blue",
+              "Dark Green",
+              "Quartz",
+              "White Pearl"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 100 sheets",
+              "Maximum 120 sheets",
+              "Maximum 15 sheets",
+              "Maximum 160 sheets",
+              "Maximum 190 sheets",
+              "Maximum 220 sheets",
+              "Maximum 280 sheets",
+              "Maximum 340 sheets",
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "206603",
+        "name": "Peleman Photobook A4 Landscape Full Color",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003ECapture Your Best Memories in Full Color\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/05/fusion-photobook-front-wbbpbfcsra4l-300x300.jpg",
+        "price": "&euro;&nbsp;16,50 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Landscape"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "198135",
+        "name": "Thermal Hard Covers Kashmir",
+        "category": "lay-flat-hard-covers",
+        "categoryIds": [
+          "lay-flat-hard-covers"
+        ],
+        "description": "\u003Cp\u003EThis HardCover, with a hardback Kashmir touch cover, is a pleasure to write in. Personalise your HardCover with your own company logo and the name of your employee.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as SteelBook, UniCover Hard.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/mpntea410-kashmir-notebook-a4-allcolours-copy-wbbmpntea45-300x300.jpg",
+        "price": "&euro;&nbsp;6,32 &ndash; &euro;&nbsp;15,30 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4",
+              "A5"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Blossom",
+              "Charcoal",
+              "Lime",
+              "Maroon",
+              "Naranja",
+              "Oyster",
+              "Red",
+              "Silver",
+              "Turquoise",
+              "Ultramarine"
+            ]
+          },
+          {
+            "name": "pa_personalisation",
+            "options": [
+              "Cover UV",
+              "No personalisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "198033",
+        "name": "Peleman Box A4",
+        "category": "organising-tools",
+        "categoryIds": [
+          "organising-tools",
+          "peleman-box",
+          "personalisation-systems"
+        ],
+        "description": "",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/peleman-box-restaurant-wbbmb233340-300x300.jpg",
+        "price": "&euro;&nbsp;9,34 &ndash; &euro;&nbsp;12,94 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Blossom",
+              "Charcoal",
+              "Lime",
+              "Maroon",
+              "Naranja",
+              "Oyster",
+              "Red",
+              "Silver",
+              "Turquoise",
+              "Ultramarine",
+              "White Soft Touch"
+            ]
+          },
+          {
+            "name": "pa_height",
+            "options": [
+              "45 mm",
+              "90 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "198017",
+        "name": "Peleman Box Basic",
+        "category": "organising-tools",
+        "categoryIds": [
+          "organising-tools",
+          "peleman-box"
+        ],
+        "description": "\u003Cp\u003EThis premium box with a magnetic closure can be used in a variety of special ways as a cherished keepsake:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\n\u003Cli\u003Ea surprise box\u003C/li\u003E\n\u003Cli\u003Ea product launch\u003C/li\u003E\n\u003Cli\u003Ea gift box\u003C/li\u003E\n\u003C/ul\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/presentation-box-basic-wbbmbcase-300x300.jpg",
+        "price": "&euro;&nbsp;6,41 &ndash; &euro;&nbsp;8,23 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4",
+              "A5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "197210",
+        "name": "Peleman Box A4 - 45mm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box"
+        ],
+        "description": "\u003Cp\u003EThis premium box with a magnetic closure can be used in a variety of special ways as a cherished keepsake:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\n\u003Cli\u003Ea surprise box\u003C/li\u003E\n\u003Cli\u003Ea product launch\u003C/li\u003E\n\u003Cli\u003Ea gift box\u003C/li\u003E\n\u003C/ul\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/peleman_box_white-wbbpba445-300x300.jpg",
+        "price": "&euro;&nbsp;7,82 &ndash; &euro;&nbsp;15,02 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_personalisation",
+            "options": [
+              "Cover Hotfoil Gold",
+              "Cover Hotfoil Silver",
+              "Cover UV",
+              "No personalisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "196331",
+        "name": "Peleman Box A4 - 90mm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box"
+        ],
+        "description": "\u003Cp\u003EThe Peleman Box is a brand new solution created to leave a lasting and unforgettable impression. The box is easy to assemble, fully customisable, and flat-packed for easy storage. The box has a magnetic closure and can be used in a variety of special way as a cherished keepsake.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003Eperfect for onboarding a new member of the team\u003C/li\u003E\n\u003Cli\u003Ea childbirth box\u003C/li\u003E\n\u003Cli\u003Ea surprise box\u003C/li\u003E\n\u003Cli\u003Ea product launch\u003C/li\u003E\n\u003Cli\u003Ea gift box\u003C/li\u003E\n\u003C/ul\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/11/peleman_box_white-wbbpba490-300x300.jpg",
+        "price": "&euro;&nbsp;9,02 &ndash; &euro;&nbsp;16,23 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Flower",
+              "Ocean",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "Flower",
+              "Ocean",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          },
+          {
+            "name": "pa_personalisation",
+            "options": [
+              "Cover Hotfoil Gold",
+              "Cover Hotfoil Silver",
+              "Cover UV",
+              "No personalisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "193284",
+        "name": "Crystal Flex Covers",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-flex-covers"
+        ],
+        "description": "\u003Cp\u003EThe Crystal Flex Cover is the ideal binding solution for any document or presentation. Choose between a transparent or matte finish for the front or back cover.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as SteelCrystal, UniCover Flex.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/17280a4-crystalflexcover-1-wbb17280a4-300x300.jpg",
+        "price": "&euro;&nbsp;1,63 &ndash; &euro;&nbsp;2,20 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Azur",
+              "Black",
+              "Bordo",
+              "Dark Blue",
+              "Dark Green",
+              "Quartz",
+              "Red",
+              "White"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 100 sheets",
+              "Maximum 120 sheets",
+              "Maximum 15 sheets",
+              "Maximum 160 sheets",
+              "Maximum 220 sheets",
+              "Maximum 340 sheets",
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192916",
+        "name": "Spine Covers",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-spine-covers"
+        ],
+        "description": "\u003Cp\u003EThe Spine Cover is ideal if you want to bind using your own sheets, and don't want a plastic front or back cover. Leaving you to choose the right cover to meet your needs. You can also use it to bind A5 and A3 documents. Available in 3 spine sizes, up to 80 sheets. With the Spine Cover A4 you can bind A3 landscape and A4 portrait formats. With the Spine Cover A5 you can bind A4 landscape and A5 portrait formats.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as SteelBack, Unicover Spine.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/unibackcover_4-wbb17281a4-300x300.jpg",
+        "price": "&euro;&nbsp;0,87 &ndash; &euro;&nbsp;1,13 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Portrait",
+              "A5 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Azur",
+              "Black",
+              "Bordo",
+              "Dark Blue",
+              "Dark Green",
+              "Quartz",
+              "Red",
+              "White"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 15 sheets",
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192501",
+        "name": "Mat Flex Covers",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-flex-covers"
+        ],
+        "description": "\u003Cp\u003EThe Matte Flex Cover is the ideal binding solution for any document or presentation. The matte finish is semi-transparent, yet still see-through.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as SteelMat, UniCover Mat.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/17284a4-unicovermat-waaier-wbb17284a4-300x300.jpg",
+        "price": "&euro;&nbsp;1,63 &ndash; &euro;&nbsp;2,20 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Azur",
+              "Black",
+              "Bordo",
+              "Dark Blue",
+              "Dark Green",
+              "Quartz",
+              "Red",
+              "White"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 100 sheets",
+              "Maximum 120 sheets",
+              "Maximum 15 sheets",
+              "Maximum 160 sheets",
+              "Maximum 220 sheets",
+              "Maximum 340 sheets",
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192414",
+        "name": "Thermal Soft Covers",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-soft-covers"
+        ],
+        "description": "\u003Cp\u003EThe Soft Cover is made of a flexible, yet durable, material.It is the perfect presentation solution for documents and notebooks.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniCover Soft.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/softcover-open-closed-white-wbb17382a4-300x188.png",
+        "price": "&euro;&nbsp;2,84 &ndash; &euro;&nbsp;8,70 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "White Soft Touch"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 15 sheets",
+              "Maximum 40 sheets",
+              "Maximum 60 sheets",
+              "Maximum 80 sheets"
+            ]
+          },
+          {
+            "name": "pa_personalisation",
+            "options": [
+              "Cover Hotfoil Gold",
+              "Cover Hotfoil Silver",
+              "Cover UV",
+              "No personalisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192398",
+        "name": "Dela Memorial PhotoBook A4",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003ECreate this premium photo book all by yourself thanks to the handy Peleman Photo Editor filled with numerous ready-to-use designs. Just upload photos, order and you're done. A tangible memory with great emotional value for loved ones. TIP: order several photo books, e.g. one for each loved one.\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003EMax 90 photos\u003C/strong\u003E\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/10/dela-front-1-100-wbb2522dela-300x300.jpg",
+        "price": "&euro;&nbsp;13,89 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Dela Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192200",
+        "name": "Pro PhotoBook A4L",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books",
+          "resin-photo"
+        ],
+        "description": "Thermal Hard Covers are ultra robust, premium quality covers.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/pro-photobook-a4l-wbb2522f4l-300x300.jpg",
+        "price": "&euro;&nbsp;7,91 &ndash; &euro;&nbsp;9,87 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Black Linen",
+              "Black Silk",
+              "Blue Linen",
+              "Bordo Linen",
+              "Camel",
+              "White Pearl"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "3 mm",
+              "5 mm",
+              "7 mm",
+              "9 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192115",
+        "name": "Pro PhotoBook A4P",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books",
+          "resin-photo"
+        ],
+        "description": "Thermal Hard Covers are ultra robust, premium quality covers.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2026/01/pro-photobook-a4p-wbb2522fa4-300x300.jpg",
+        "price": "&euro;&nbsp;8,28 &ndash; &euro;&nbsp;8,32 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black Silk"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "3 mm",
+              "5 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192076",
+        "name": "Certificate Holder A4",
+        "category": "organising-tools",
+        "categoryIds": [
+          "organising-tools"
+        ],
+        "description": "\u003Cp\u003EPresent special documents or certificates in this Certificate Holder.Opt for a genuine leather cover for a truly deluxe finish. This holder can be easily customised with your own logo, occasion/event name or text/image of your choice.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Certificate Cover.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/wbb2522ta4-certificateholder-wbb2522ta4-300x300.jpg",
+        "price": "&euro;&nbsp;6,65 &ndash; &euro;&nbsp;22,01 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Black",
+              "Black Leather",
+              "Napura Eco Cumin",
+              "White Pearl",
+              "White Soft Touch"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192062",
+        "name": "Hermans Memory Box with A4 PhotoBook",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EMemories of a departed loved one are there to be cherished, to be cared for. A need that is conveniently addressed by this memory box. Relatives provide you with their \u003Cstrong\u003Efavourite photos\u003C/strong\u003E. You then create a premium photo book using the handy \u003Cstrong\u003EPeleman Photo Editor\u003C/strong\u003E with numerous ready-made designs. Order and you're done. The family can then store the photo book neatly in an accompanying \u003Cstrong\u003Ecustom storage box.\u003C/strong\u003E\u003C/p\u003E\n\u003Cp\u003EA tangible keepsake with lots of emotional value. TIP: order several memorial boxes, e.g. one for each loved one.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/11/vandamme2-100-wbb2522vandamme-300x300.jpg",
+        "price": "&euro;&nbsp;32,72 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Van Damme Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192048",
+        "name": "Van Damme Memory Box with A4 PhotoBook",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EMemories of a departed loved one are there to be cherished, to be cared for. A need that is conveniently addressed by this memory box. Relatives provide you with their \u003Cstrong\u003Efavourite photos\u003C/strong\u003E. You then create a premium photo book using the handy \u003Cstrong\u003EPeleman Photo Editor\u003C/strong\u003E with numerous ready-made designs. Order and you're done. The family can then store the photo book neatly in an accompanying \u003Cstrong\u003Ecustom storage box.\u003C/strong\u003E\u003C/p\u003E\n\u003Cp\u003EA tangible keepsake with lots of emotional value. TIP: order several memorial boxes, e.g. one for each loved one.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/11/vandamme2-100-wbb2522vandamme-300x300.jpg",
+        "price": "&euro;&nbsp;32,72 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Van Damme Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192029",
+        "name": "VideoBook A4, Peel &amp; Stick",
+        "category": "binding-systems",
+        "categoryIds": [
+          "binding-systems",
+          "video-book"
+        ],
+        "description": "\u003Cp\u003EBring your story to life with a VideoBook!\u003C/p\u003E\n\u003Cp\u003EThe VideoBook combines the best of both worlds: print with moving image and sound.The best of both worlds brought together in one medium. Without a doubt, your VideoBook will make a lasting impression on your clients.\u003C/p\u003E\n\u003Cp\u003EWhy choose a VideoBook?\u003C/p\u003E\n\u003Cp\u003EUsing our practical kit, add your video to your presentation material. No outsourcing required.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EThe screen can be glued on either the right or left side, using the Peel &amp; Stick system.\u003C/li\u003E\n\u003Cli\u003EYou can then attach another bound document or leaflet on the other side.\u003C/li\u003E\n\u003Cli\u003EUpload the video using the supplied USB cable.\u003C/li\u003E\n\u003Cli\u003EEasy to combine with different covers for presentation folders\u003C/li\u003E\n\u003Cli\u003EGuaranteed to wow!\u003C/li\u003E\n\u003C/ul\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/2529pa4-videobook-open-02-wbb2529pa4-300x300.jpg",
+        "price": "&euro;&nbsp;80,03 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "White Soft Touch"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "192007",
+        "name": "Paper Cover Sets A4",
+        "category": "binding-covers",
+        "categoryIds": [
+          "binding-covers"
+        ],
+        "description": "Use in combination with the Spine Cover A4.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/coversets-paper-blue-white-gray-wbb27281a400-300x300.jpg",
+        "price": "&euro;&nbsp;0,37 &ndash; &euro;&nbsp;0,39 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Blue",
+              "Silver",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191986",
+        "name": "Paper Cover Sets A4 + Window",
+        "category": "binding-covers",
+        "categoryIds": [
+          "binding-covers"
+        ],
+        "description": "Use in combination with the Spine Cover A4. The window gives you the option to customise.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/coversets-paper-blue-white-gray-with-window-wbb27281a410-300x300.jpg",
+        "price": "&euro;&nbsp;0,47 &ndash; &euro;&nbsp;0,49 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Blue",
+              "Silver",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191960",
+        "name": "Peel &amp; Stick Pockets",
+        "category": "thermal-binding-accessories",
+        "categoryIds": [
+          "thermal-binding-accessories"
+        ],
+        "description": "\u003Cp\u003EThe finishing touch is in the details! And they can add value to your end product.\u003C/p\u003E\n\u003Cp\u003EThese Peel &amp; Stick Pockets are handy to attach to the inside of your HardCover or Certificate. They allow you to add extra information, such as a name card. It is just that little bit more to show that you think along with your customer.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/pocket-business-card-s-wbbacasp-300x300.jpg",
+        "price": "&euro;&nbsp;0,32 &ndash; &euro;&nbsp;1,82 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Pocket",
+              "Business Card Pocket 60 x 95 mm",
+              "CD-Rom Pocket 127 x 127 mm",
+              "Triangular Pocket 200 x 200 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191942",
+        "name": "Hard Cover Basic Clip Board with magnetic closure",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003EA Clip Board with a Magnetic Closure to display your documents in a stylish way. Easy to produce yourself with the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\"\u003EHard Cover Maker 650\u003C/a\u003E. Available in A4 and A5. Includes black mirror sheets.\u003C/p\u003E\n\u003Cp\u003EIdeal for clamping a frequently changing menu.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-clipboard-wbbc162272rcd-300x200.png",
+        "price": "&euro;&nbsp;3,89 &ndash; &euro;&nbsp;4,20 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4",
+              "A5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191916",
+        "name": "C21 - PhotoBook A4 - FR",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EAls mensen een huis of appartement kopen, ontstaat al snel een sterke band met het pand, zelfs als ze pas over enkele maanden verhuizen. Enthousiast willen ze het goede nieuws aan iedereen vertellen, en misschien zelfs laten zien. Daarom is het een geweldig idee om ze een tastbaar fotoboek mee te geven, gevuld met foto's van hun nieuwe woning. Gepersonaliseerd met Century 21-branding: zo geef je klanten een blijvende herinnering aan hun nieuwe thuis, terwijl je tegelijkertijd je brand versterkt.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/phbook01-wbbc212522fr-300x300.jpg",
+        "price": "&euro;&nbsp;24,39 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Century 21 Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191902",
+        "name": "C21 - PhotoBook A4 - NL",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EAls mensen een huis of appartement kopen, ontstaat al snel een sterke band met het pand, zelfs als ze pas over enkele maanden verhuizen. Enthousiast willen ze het goede nieuws aan iedereen vertellen, en misschien zelfs laten zien. Daarom is het een geweldig idee om ze een tastbaar fotoboek mee te geven, gevuld met foto's van hun nieuwe woning. Gepersonaliseerd met Century 21-branding: zo geef je klanten een blijvende herinnering aan hun nieuwe thuis, terwijl je tegelijkertijd je brand versterkt.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/phbook01-wbbc212522nl-300x300.png",
+        "price": "&euro;&nbsp;24,39 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Century 21 Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191883",
+        "name": "C21 - Photo Panel",
+        "category": "photoproducts",
+        "categoryIds": [
+          "photoproducts"
+        ],
+        "description": "\u003Cp\u003EWanneer mensen een huis of appartement kopen duurt het vaak nog enkele maanden vooraleer ze kunnen verhuizen. Toch voelen ze al een sterke band met het pand. Ze willen aan iedereen het goede nieuws vertellen, misschien zelfs tonen. Geef ze daarom een tastbaar paneel mee met de foto van hun nieuwe optrekje. Gepersonaliseerd met de naam van de koper, Century 21-branding zodat jouw service altijd in het oog springt.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/c21-photopanel-nl-wbbc21ccwoodps-300x300.jpg",
+        "price": "&euro;&nbsp;12,30 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Century 21 - FR",
+              "Century 21 - NL"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191870",
+        "name": "C21 - Infinity Lay-Flat Photo Book",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EKopers van unieke panden verschillen van andere kopers. Ze kopen vaak puur op emotie. Ze richten zich pas later op de feiten, nadat ze emotioneel verbonden zijn met het onroerend goed. Speel in op die emotie. Zeg op gepaste wijze dankjewel voor dat vertrouwen dat ze in jou stelden. Dankbaarheid blijft bij – zeker als je die dankjewel tastbaar maakt met dit Infinity Lay-Flat Photo Book.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ilf02-wbbc21ilfpbook-300x300.png",
+        "price": "&euro;&nbsp;46,51 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Century 21 Photobook Full Colour"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191840",
+        "name": "Peel &amp; Stick Hard Cover A4 Mono",
+        "category": "retail-product-range",
+        "categoryIds": [
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003ECustomise the front of your hard cover without a machine. The front of the Peel &amp; Stick Hard Cover is self-adhesive.Simply peel off the paper and stick your print onto the self-adhesive section.\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniCover UniQ.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ccfasmo-peel-stick-hard-cover-a4-p-wbbccfasmo.jpg",
+        "price": "&euro;&nbsp;6,50 &ndash; &euro;&nbsp;6,88 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191807",
+        "name": "Duo Hard Cover",
+        "category": "hard-cover-maker",
+        "categoryIds": [
+          "hard-cover-maker",
+          "hard-covers"
+        ],
+        "description": "\u003Cp\u003EThe Duo Hard Cover is a user-friendly customisation tool for the front and back of your hard cover. It is a 100% dry process, with no fluids, chemicals or glue required. The Duo Hard Cover is the perfect customisation solution for all your one-offs or short-run productions.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as InstahardCover Duo, UniCover Duo.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/duohardcover-a4l-wbbccfduo-300x300.jpg",
+        "price": "&euro;&nbsp;5,11 &ndash; &euro;&nbsp;9,79 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Landscape",
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191770",
+        "name": "Mono Hard Cover",
+        "category": "hard-cover-maker",
+        "categoryIds": [
+          "hard-cover-maker",
+          "hard-covers"
+        ],
+        "description": "\u003Cp\u003EThe Mono Hard Cover is a user-friendly customisation tool for the front of your hard cover. It is a 100% dry process, with no fluids, chemicals or glue required. The Mono Hard Cover is the perfect customisation solution for all your one-offs or short-run productions.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as InstahardCover Mono, UniCover Mono.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/monohardcover-a4l-wbbccfmono-300x300.jpg",
+        "price": "&euro;&nbsp;4,89 &ndash; &euro;&nbsp;9,21 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Landscape",
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191737",
+        "name": "Panorama Hard Cover",
+        "category": "hard-cover-maker",
+        "categoryIds": [
+          "hard-cover-maker",
+          "hard-covers"
+        ],
+        "description": "\u003Cp\u003EThe Panorama Hard Cover is a user-friendly customisation tool for the spine, front and back of your hard cover. It is a 100% dry process, with no fluids, chemicals or glue required. The Panorama Hard Cover is the perfect customisation solution for all your one-offs or short-run productions.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as InstahardCover Panorama, UniCover Panorama.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/panoramahardcover-a4l-3-wbbccfpanorama-300x300.jpg",
+        "price": "&euro;&nbsp;5,11 &ndash; &euro;&nbsp;9,79 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Landscape",
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191717",
+        "name": "Peel &amp; Stick Panel A4",
+        "category": "panels",
+        "categoryIds": [
+          "panels"
+        ],
+        "description": "The Peel &amp; Stick Single Panel can be customised with an A4 print directly onto the panel. Use in both portrait and landscape format.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniPanel One, UniPanel Two.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ccup0psa401-unipanel_one_beach-wbbccup0psa401-300x300.jpg",
+        "price": "&euro;&nbsp;4,43 &ndash; &euro;&nbsp;8,94 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Double Panel",
+              "A4 Single Panel"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191700",
+        "name": "Peel &amp; Stick Wood Panel",
+        "category": "panels",
+        "categoryIds": [
+          "panels",
+          "retail-product-range"
+        ],
+        "description": "These Peel &amp; Stick photo panels can be wall mounted or displayed on a table.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniPanel Wood (Self-adhesive).\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/peel-stick-wood-panel-4-wbbccwoodps-300x300.jpg",
+        "price": "&euro;&nbsp;5,95 &ndash; &euro;&nbsp;6,21 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "5 x 7 inch",
+              "8 x 10 inch"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191680",
+        "name": "Resin Wood Panel",
+        "category": "ondemandcasem",
+        "categoryIds": [
+          "ondemandcasem"
+        ],
+        "description": "Create your own customised displays with the Resin Wood Panel. The Resin Wood Panel helps you to customise, using the Hard Cover Maker.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniPanel Wood (Resin).\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ccwood-peel-stick-panel-v2-wbbccwood-300x300.jpg",
+        "price": "&euro;&nbsp;10,26 &ndash; &euro;&nbsp;14,21 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3",
+              "A4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191657",
+        "name": "Peel &amp; Stick Light Panel",
+        "category": "panels",
+        "categoryIds": [
+          "panels",
+          "retail-product-range"
+        ],
+        "description": "Photo panel to mount photos in a matter of seconds. No machine is required as it has a self-adhesive layer.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniPanel Light.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ccwpan4x6v1-peel-stick-light-panel-4x6-single-sided-wbbccwpan-300x300.jpg",
+        "price": "&euro;&nbsp;4,71 &ndash; &euro;&nbsp;9,12 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 15 cm",
+              "15 x 20 cm",
+              "20 x 25 cm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191641",
+        "name": "Peel &amp; Stick Wood Panel Bamboo, 28mm Thickness",
+        "category": "bamboo-collection",
+        "categoryIds": [
+          "bamboo-collection",
+          "retail-product-range"
+        ],
+        "description": "Photo panel to mount photos in a matter of seconds. No machine is required as it has a self-adhesive layer.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/peel-and-stick-bamboo-panel-2-wbbccwpanw-300x300.jpg",
+        "price": "&euro;&nbsp;7,45 &ndash; &euro;&nbsp;20,14 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "4 x 6 inch (10 x 15 cm)",
+              "8 x 10 inch (20 x 25 cm)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191618",
+        "name": "Hard Cover Basic Display",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic",
+          "personalisation-systems"
+        ],
+        "description": "Make your own customised display with the Hard Cover Basic Display. This ready-to-use display is coated in hot-melt adhesive.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-display-wbbchcd-300x200.png",
+        "price": "&euro;&nbsp;2,05 &ndash; &euro;&nbsp;2,98 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3",
+              "A4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191531",
+        "name": "Cover Sets for Spine Covers",
+        "category": "lay-flat-covers",
+        "categoryIds": [
+          "lay-flat-covers",
+          "lay-flat-spine-covers"
+        ],
+        "description": "\u003Cp\u003EWith the Spine Cover you can bind documents with a paper cover, a transparent cover or in imitation leather; portrait or landcape.\u003C/p\u003E\n\u003Cp\u003ESturdy, fast and easy binding. Shrinking the spine in a binding machine gives your document a perfect shape. In combination with the V-paper you get a perfect flat result.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/11/mockup-1-wbbcovsetspine-300x300.jpg",
+        "price": "&euro;&nbsp;0,22 &ndash; &euro;&nbsp;0,50 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Transparant Crystal Cover Set Landscape",
+              "A3 Transparant Mat Cover Set Landscape",
+              "A4 Paper Cover Sets Blue",
+              "A4 Paper Cover Sets Blue + Window",
+              "A4 Paper Cover Sets Gray",
+              "A4 Paper Cover Sets Gray + Window",
+              "A4 Paper Cover Sets White",
+              "A4 Paper Cover Sets White + Window",
+              "A4 Transparant Crystal Cover Set Portrait",
+              "A4 Transparant Mat Cover Set Portrait",
+              "Filling Cover Set White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191514",
+        "name": "Ring Cassette for Spine Maker Press",
+        "category": "personalisation-systems",
+        "categoryIds": [
+          "personalisation-systems",
+          "spine-maker-press"
+        ],
+        "description": "\u003Cp\u003EThe ring cassette affixes 2 or 4 ring mechanisms onto the Basic Ring Binder, using rivets. This is used in combination with the Spine Maker Press.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ringcassette-for-spine-maker-press-2-wbbcrc0-300x300.jpg",
+        "price": "&euro;&nbsp;1.515,27 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 2-rings",
+              "A4 4-rings"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191497",
+        "name": "Spine Cassette for Spine Maker Press",
+        "category": "personalisation-systems",
+        "categoryIds": [
+          "personalisation-systems",
+          "spine-maker-press"
+        ],
+        "description": "\u003Cp\u003EThe Spine Cassette is an accessory to the Spine Maker Press. You can use it to make your own customised hard covers. Place the Spine Cassette in your Spine Maker Press to shape a U profile in customised Basic Hard Covers. The Spine Cassette comes in two spine sizes: 80 and 120.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/csc1-spine-cassette-for-casepress-wbbcsc1-300x300.jpg",
+        "price": "&euro;&nbsp;1.515,27 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 120 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191481",
+        "name": "Hard Cover Basic Certificate Holder",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003EDisplay documents with the Basic Certificate Holder that you produce on your own with the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\"\u003EHard Cover Maker 650\u003C/a\u003E. There are two sizes available:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003EA5 Portrait - perfect to display menu's or other documents.\u003C/li\u003E\n\u003Cli\u003E21,7 x 13cm - perfect to create a bill-holder.\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003EIncludes black mirror sheets.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-certification-holder-wbbhcbch-300x200.png",
+        "price": "&euro;&nbsp;1,75 &ndash; &euro;&nbsp;1,80 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "21,7 x 13 cm",
+              "A5 Portrait"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191428",
+        "name": "Hard Cover Basic For Clamp Binding",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003ECreate an elegant and professional looking (book) cover on your own. With the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\"\u003EHard Cover Maker 650\u003C/a\u003E, wrap the pre-processed board of the \u003Ca href=\"/product/hard-cover-basic/\" target=\"_blank\"\u003EHard Cover Basic\u003C/a\u003E with your own cover material. What's unique about the Hard Cover Basic? The practical clamp binding: bundle your prints or documents, slide into the clamp and then slide it back in the spine.\u003C/p\u003E\n\u003Cp\u003ECombine with our patented \u003Ca href=\"/solutions/lay-flat-paper-technology/v-paper/\" target=\"_blank\"\u003EV Paper\u003C/a\u003E for a hardcover that lays beautifully flat. Includes black mirror sheets. Ideal for clamping a frequently changing menu.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-clamp-binding-wbbhcbfcb-300x200.png",
+        "price": "&euro;&nbsp;3,82 &ndash; &euro;&nbsp;4,97 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "15 x 15 cm",
+              "21,7 x 21,7 cm",
+              "A4 Landscape",
+              "A4 Portrait",
+              "A4 x 16 cm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191257",
+        "name": "Hard Cover Basic",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic",
+          "personalisation-systems"
+        ],
+        "description": "The Hard Cover Basic is a premade cover in a paper coating with a thin layer of hot melt on its outside and interior borders.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as CaseCover, CasePlano.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-wbbhcb-300x200.png",
+        "price": "&euro;&nbsp;1,59 &ndash; &euro;&nbsp;4,02 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 15 cm",
+              "20 x 20 cm",
+              "30 x 30 cm",
+              "A4 Landscape",
+              "A4 Portrait",
+              "A5 Landscape",
+              "A5 Portrait",
+              "Letter Size Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black Mirrors",
+              "White Mirrors"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 120 sheets",
+              "Maximum 80 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191234",
+        "name": "Hard Cover Basic RingBinder 15mm",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003ECreate a personalised A4 RingBinder (spine size of 15 mm) with the Hard Cover Basic. Easy to produce yourself with the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\"\u003EHard Cover Maker 650\u003C/a\u003E. Includes black mirror sheets.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/hcb-ringbinder-wbbhcbrb-300x200.png",
+        "price": "&euro;&nbsp;3,17 &ndash; &euro;&nbsp;4,81 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4",
+              "A5"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191213",
+        "name": "Infinity Lay Flat Book Block",
+        "category": "infinitylayflat",
+        "categoryIds": [
+          "infinitylayflat"
+        ],
+        "description": "\u003Cp\u003EThe Infinity Lay-Flat Photobook is a new and unique product in the world of photography. With this userfriendly technology you create a fantastic user experience in no time! Photos can be printed continuously over 2 pages, with no crack or visible crease in the seperation line.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/artboard-9-100-wbbinflfbookblock-300x300.jpg",
+        "price": "&euro;&nbsp;22,24 &ndash; &euro;&nbsp;30,01 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 10 inch",
+              "8.5 x 8.5 inch"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191184",
+        "name": "Infinity Lay Flat Hard Cover",
+        "category": "infinitylayflat",
+        "categoryIds": [
+          "infinitylayflat"
+        ],
+        "description": "\u003Cp\u003EThe Infinity Lay-Flat Photobook is a new and unique product in the world of photography. With this user friendly technology you create a fantastic user experience in no time! Photos can be printed continuously over 2 pages, with no crack or visible crease in the seperation line.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/artboard-4-100-wbbinflfhcover-300x300.jpg",
+        "price": "&euro;&nbsp;11,16 &ndash; &euro;&nbsp;13,20 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 10 inch",
+              "8.5 x 8.5 inch"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Charcoal",
+              "Oyster"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191151",
+        "name": "PortFolio A4",
+        "category": "organising-tools",
+        "categoryIds": [
+          "organising-tools"
+        ],
+        "description": "The PortFolio is an elegant storage and display folder for your documents.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/erez_pf-dumas-alu-hotfoil-wbbmb000-300x300.jpg",
+        "price": "&euro;&nbsp;6,92 &ndash; &euro;&nbsp;7,23 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "White Pearl"
+            ]
+          },
+          {
+            "name": "pa_height",
+            "options": [
+              "15 mm",
+              "30 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191131",
+        "name": "Bamboo Box with magnetic closure",
+        "category": "bamboo-collection",
+        "categoryIds": [
+          "bamboo-collection",
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003EThis trendy bamboo storage box is perfect for holding:\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003Ename plates\u003C/li\u003E\n\u003Cli\u003Econtact details\u003C/li\u003E\n\u003Cli\u003Ekeys, badges or copier cards\u003C/li\u003E\n\u003Cli\u003Eoffice supplies\u003C/li\u003E\n\u003C/ul\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/mb124093bb-bamboobox-wbbmbbb-300x300.jpg",
+        "price": "&euro;&nbsp;15,96 &ndash; &euro;&nbsp;19,09 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "Bamboo Box W124 x D93 x H36mm",
+              "Bamboo Box W178 x D128 x H56mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191115",
+        "name": "Media PhotoPaper CK-D746, 10x15",
+        "category": "photoprintme",
+        "categoryIds": [
+          "photoprintme",
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003ERolled photo paper, for use with Printer CP-D707DW. Suitable for printing 10x15 cm photos.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/media-photopaper-ck-d746-10x15-2-wbbmediackd746-300x300.jpg",
+        "price": "&euro;&nbsp;107,65 &ndash; &euro;&nbsp;141,84 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10x15 cm photoprints (rol)",
+              "10x15 cm photoprints perforated (rol)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "191102",
+        "name": "Thermal Hard Cover A4 Eco",
+        "category": "lay-flat-hard-covers",
+        "categoryIds": [
+          "lay-flat-hard-covers"
+        ],
+        "description": "\u003Cp\u003EThe ECO cover, as its name suggests, is made from sustainable materials. Choose this cover material if you want to showcase your commitment to sustainability. Made from recycled paper, it has a clean and stylish appearance. Customize it as you wish and make a statement. With the Thermal binding system, you can crimp the spine for a perfect fit.\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003EThe Thermal Hard Cover A4 Eco is currently only available in spine 100.\u003C/strong\u003E\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/10/hard-cover-a4-book-mockup-3-wbbmpntea410nec-300x273.jpg",
+        "price": "&euro;&nbsp;6,92 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Napura Eco Cumin"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "190994",
+        "name": "NoteBook Kashmir Touch, spine 80",
+        "category": "retail-product-range",
+        "categoryIds": [
+          "retail-product-range"
+        ],
+        "description": "This Thermal Hard Cover is ideal for notebooks and meeting books.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/notebook-textile-a5-spine-80-wbbmpnte-300x300.jpg",
+        "price": "&euro;&nbsp;6,18 &ndash; &euro;&nbsp;9,23 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Portrait",
+              "A5 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Blossom",
+              "Charcoal",
+              "Lime",
+              "Maroon",
+              "Naranja",
+              "Oyster",
+              "Red",
+              "Silver",
+              "Turquoise",
+              "Ultramarine"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "190965",
+        "name": "Acrylic Panel",
+        "category": "displays",
+        "categoryIds": [
+          "displays"
+        ],
+        "description": "Discover the latest addition to our fast-growing display panel line.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/acrylic-4x6-6x8-wbbpanacrb-300x300.jpg",
+        "price": "&euro;&nbsp;9,42 &ndash; &euro;&nbsp;20,59 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 15 cm",
+              "15 x 20 cm",
+              "A4 Portrait",
+              "A5 Portrait"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "190947",
+        "name": "Cover Sets for Punch Binding",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "These front and back covers are specifically developed for use with the punch binding system.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Coversets.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/coverset_transparant-wbbpbatr-300x300.jpg",
+        "price": "&euro;&nbsp;0,15 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_finish",
+            "options": [
+              "Transparent Clear",
+              "Transparent Mat"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "190870",
+        "name": "Wires for Punch Binding",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "This high quality looped metal wire gives your books and calendars a very professional appearance.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/inel-metal-8mm-100cut-leitz-p8397-8397-0-wbbpbw-300x300.jpg",
+        "price": "&euro;&nbsp;0,10 &ndash; &euro;&nbsp;0,29 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "11.1 mm (7/16)",
+              "12.7 mm (1/2)",
+              "14.3 mm (9/16)",
+              "4.8 mm (3/16)",
+              "6.4 mm (1/4)",
+              "7.9 mm (5/16)",
+              "9.5 mm (3/8)"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Aluminium",
+              "Black"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "190281",
+        "name": "Perfect Meeting Concept A4",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "perfect-meeting-concept"
+        ],
+        "description": "\u003Cp\u003E\u003Cstrong\u003EA personalised notebook with contents + classy box\u003C/strong\u003E\u003C/p\u003E\n\u003Cp\u003EMeetings have never been so much fun! This new concept combines a notebook with pre-made contents together with a unique box. The pages of the notebook lay perfectly flat and are pleasant to write on.  Everything for a ‘Perfect Meeting’.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/05/perfect-meeting-concept-1-wbbpmca4-300x300.jpg",
+        "price": "&euro;&nbsp;13,55 &ndash; &euro;&nbsp;37,94 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Blossom",
+              "Charcoal",
+              "Lime",
+              "Maroon",
+              "Napura Eco Cumin",
+              "Naranja",
+              "No Book",
+              "Oyster",
+              "Red",
+              "Silver",
+              "Turquoise",
+              "Ultramarine"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "No Box",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189730",
+        "name": "Perfect Meeting Concept A5",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "perfect-meeting-concept"
+        ],
+        "description": "",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/05/perfect-meeting-concept-1-wbbpmca5-300x300.jpg",
+        "price": "&euro;&nbsp;12,73 &ndash; &euro;&nbsp;31,57 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Blossom",
+              "Charcoal",
+              "Lime",
+              "Maroon",
+              "Naranja",
+              "No Book",
+              "Oyster",
+              "Red",
+              "Silver",
+              "Turquoise",
+              "Ultramarine"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Black",
+              "No Box",
+              "Soft Touch - Beige",
+              "Soft Touch - Blue",
+              "Soft Touch - Green",
+              "Soft Touch - Pink",
+              "Soft Touch - Purple",
+              "Soft Touch - White",
+              "Soft Touch - Yellow"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189699",
+        "name": "Print-In Ink",
+        "category": "print-in",
+        "categoryIds": [
+          "print-in"
+        ],
+        "description": "\u003Cp\u003EInk to use in the Print-In Printer.\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003ETechnical info\u003C/strong\u003E\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli\u003E140 ml\u003C/li\u003E\n\u003Cli\u003Eavailable in four colours: Cyan, Yellow, Magenta, Black\u003C/li\u003E\n\u003Cli\u003EInk consumption in full color between 0.5 and 1 ml of ink per full printed sheet of A4\u003C/li\u003E\n\u003C/ul\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/epson-ink-all-colours-wbbpriink-300x300.jpg",
+        "price": "&euro;&nbsp;30,32 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black Ink",
+              "Cyan Ink",
+              "Magenta Ink",
+              "Yellow Ink"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189672",
+        "name": "Print-In Paper",
+        "category": "print-in",
+        "categoryIds": [
+          "print-in"
+        ],
+        "description": "\u003Cp\u003EUse Print-In paper in combination with the Print-In Press to transfer onto Print-In Plates. Print your design in mirror image onto the Print-In Paper. By means of the Print-In Press, your design penetrates the Print-In Plate under high pressure and temperature.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/print-in-paper-both-wbbpripaper-300x300.jpg",
+        "price": "&euro;&nbsp;31,54 &ndash; &euro;&nbsp;94,61 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3",
+              "A4",
+              "Rol 610mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189379",
+        "name": "Print-In Plates",
+        "category": "personalisation-systems",
+        "categoryIds": [
+          "personalisation-systems",
+          "print-in"
+        ],
+        "description": "\u003Cp\u003EThe Print-In technique is a unique process to print nameplates or photos on metal. These plates can be used for identification, personalisation and signage. They are weather- and UV-resistant. Ideal for outdoor use. Our Print-In plates are very easy to customize with our free editor.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/05/pripl-printinplate-v1-mainimage-wbbpripl-300x300.jpg",
+        "price": "&euro;&nbsp;1,82 &ndash; &euro;&nbsp;53,16 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "Print-In Plate 10.5x5.3 cm White",
+              "Print-In Plate 10x10 cm Oval Double Sided with Hole",
+              "Print-In Plate 10x15 cm",
+              "Print-In Plate 11x15 cm Oval",
+              "Print-In Plate 12x12 cm Heart White",
+              "Print-In Plate 12x12 cm White Cross Double Sided",
+              "Print-In Plate 13x15 cm Bended",
+              "Print-In Plate 13x18 cm",
+              "Print-In Plate 14 x 20.5 cm White Identification Stand",
+              "Print-In Plate 14.2x2.2 cm Copper Edges with Holes",
+              "Print-In Plate 14.2x2.2 cm White Edges with Holes",
+              "Print-In Plate 15x20 cm White",
+              "Print-In Plate 15x5 cm White",
+              "Print-In Plate 15x6,5 cm Alu",
+              "Print-In Plate 15x6,5 cm Copper",
+              "Print-In Plate 15x8,5 cm Alu",
+              "Print-In Plate 15x8,5 cm Copper",
+              "Print-In Plate 15x8,5 cm White",
+              "Print-In Plate 15x8.5 cm Bended",
+              "Print-In Plate 16 x 19 cm White Candle Holder",
+              "Print-In Plate 18.5x13.5 cm Copper Edges with Holes",
+              "Print-In Plate 19x3.5 cm Copper",
+              "Print-In Plate 2.5x3 cm",
+              "Print-In Plate 20x20 cm",
+              "Print-In Plate 20x25 cm",
+              "Print-In Plate 21x6.5 cm",
+              "Print-In Plate 26.4x14 cm White",
+              "Print-In Plate 27x6.5 cm",
+              "Print-In Plate 28,7 x 41 cm white",
+              "Print-In Plate 29.7x42 cm White",
+              "Print-In Plate 3 x 10 cm Alu",
+              "Print-In Plate 35x35 cm",
+              "Print-In Plate 3x3 cm Circle",
+              "Print-In Plate 3x6 cm",
+              "Print-In Plate 4 x 25 cm Alu",
+              "Print-In Plate 4 x 25 cm Copper",
+              "Print-In Plate 40x15 cm",
+              "Print-In Plate 4x12 cm",
+              "Print-In Plate 5.4x8.6 cm White Double Sided",
+              "Print-In Plate 5x7 cm Oval White",
+              "Print-In Plate 6x8 cm Oval",
+              "Print-In Plate 6x9 cm Bended",
+              "Print-In Plate 7x9 cm",
+              "Print-In Plate 7x9 cm Oval White",
+              "Print-In Plate 8.5 x 3 cm White",
+              "Print-In Plate 8x8 cm Heart",
+              "Print-In Plate 9x14 cm Copper Edges with Holes",
+              "Print-In Plate Photo Circle 10 cm",
+              "Print-In Plate Photo Oval 5x7 cm",
+              "Print-In Plate Photo Oval 7x9 cm",
+              "Print-In Plate Photo Oval 9x12 cm",
+              "Print-In Plate Photo Rectangular White 8x10 cm",
+              "Print-In Plate Photo Rectangular White 9x12 cm",
+              "Print-In Plate Photo Square 10x10 cm",
+              "Print-In Plate Photo Square 12x12 cm",
+              "Print-In Plate Photo Square 7x7 cm"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Bended Shapes",
+              "Other Shapes",
+              "Oval and Circle Shapes",
+              "Rounded Corners",
+              "Square",
+              "Straight Corners"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189350",
+        "name": "Bamboo Magnet Peel &amp; Stick",
+        "category": "bamboo-collection",
+        "categoryIds": [
+          "bamboo-collection",
+          "retail-product-range"
+        ],
+        "description": "Trendy magnet in sustainable bamboo to stick 10&times;10 cm or 10x15 cm photos on in a matter of seconds.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/rebambmag-bamboo-magnet-peel-and-stick-10x10-wbbprunimag44bb-300x300.jpg",
+        "price": "&euro;&nbsp;2,65 &ndash; &euro;&nbsp;3,63 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "4 x 4 inch",
+              "4 x 6 inch (10 x 15 cm)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189333",
+        "name": "Framed Magnet kit, Black, includes front, back and acrylic (25 pack)",
+        "category": "magnets",
+        "categoryIds": [
+          "magnets",
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003EFancy giving your fridge a makeover? Would you like to hang your favourite snapshots on a magnetic background? It's really easy to pop your photos  into the 10 x 10 cm or 10 x 15 cm Framed Magnets.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniMagnet.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/reframemag-4x4-magnet-wbbprunimag-300x300.jpg",
+        "price": "&euro;&nbsp;2,18 &ndash; &euro;&nbsp;3,76 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "4 x 4 inch",
+              "4 x 6 inch (10 x 15 cm)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189310",
+        "name": "Peel &amp; Stick Frame 10 x 15 cm",
+        "category": "boxes",
+        "categoryIds": [
+          "boxes",
+          "presentation-box",
+          "thermal-binding",
+          "thermal-binding-accessories"
+        ],
+        "description": "\u003Cp\u003EThis Peel &amp; Stick Frame is a unique and simple way to personalise documents or products. No glue or tape is needed. A photo or other content on the cover of your photobook, report, notebook, ring binder, box...? A name tag on a door? No problem! The Peel &amp; Stick Frame is an instant solution.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ps-frame-goldsilverblack-wbbpsfr1015-300x200.png",
+        "price": "&euro;&nbsp;1,01 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Gold",
+              "Silver"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189290",
+        "name": "Presentation Kit Soft Cover",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "\u003Cp\u003EThe Presentation Kit will make it easy for you to bind your presentation without the requirement of a machine. And what's more, by using our V-Paper there will be no pages jumping up anymore. So from now on, your presentation will lay flat beautifully. It doens't get any easier than this!\u003C/p\u003E\n\u003Cp\u003EThe Presentation Kit comes with a Peel &amp; Stick Frame for personalisation.\u003C/p\u003E\n\u003Cp\u003EV-Paper included (120gr)\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/soft-cover-presentation-kit-wbbqpkitsca440-300x300.jpg",
+        "price": "&euro;&nbsp;6,80 &ndash; &euro;&nbsp;7,41 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "White Soft Touch"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Maximum 10 sheets",
+              "Maximum 20 sheets"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189264",
+        "name": "Photo Book for Punch Binding",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "Collect your memories inside a beautiful photo book. Give your photo books a professional finish and high-quality look.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/yourphotobook-open2-wbbqwirp-300x300.jpg",
+        "price": "&euro;&nbsp;7,61 &ndash; &euro;&nbsp;13,44 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "15 x 20 cm",
+              "20 x 30 cm",
+              "30x20",
+              "A3 Landscape"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189248",
+        "name": "Hard Cover for Punch Binding",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "Enhance your Punch bound booklets with this durable hardcover system. Elevate these bound documents from professional to premium.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/steelbookpunch-open-wbbqwir-300x300.jpg",
+        "price": "&euro;&nbsp;8,37 &ndash; &euro;&nbsp;13,44 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Landscape",
+              "A4 Landscape"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189232",
+        "name": "Rings 25 mm for RingBinder",
+        "category": "hard-cover-maker",
+        "categoryIds": [
+          "hard-cover-maker",
+          "hard-cover-tools-accessories"
+        ],
+        "description": "The Rings for RingBinder are a must-have customisation accessory. These can be mounted onto your customised Ring Binder.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/racc4rin25l-4-ring-25-for-ringbinder-wbbracc4rin25l-300x300.jpg",
+        "price": "&euro;&nbsp;0,56 &ndash; &euro;&nbsp;0,77 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "2 Rings - 25 mm",
+              "4 Rings - 25 mm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189216",
+        "name": "Framed Magnet",
+        "category": "magnets",
+        "categoryIds": [
+          "magnets",
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003EGive your fridge or magnetic background a makeover with your favourite snapshots. The Framed Magnet is the perfect solution! Create your own photo magnet or magnet with your business details in seconds. This magnet has a black frame and rounded corners.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniMagnet.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/reframemag-4x4-magnet-wbbreframemag-300x300.jpg",
+        "price": "&euro;&nbsp;2,81 &ndash; &euro;&nbsp;3,65 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 10 cm",
+              "10 x 15 cm"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189189",
+        "name": "Peel &amp; Stick Calendar Desktop",
+        "category": "calendars",
+        "categoryIds": [
+          "calendars",
+          "punch-binding-systems"
+        ],
+        "description": "Print your pictures and stick them to the self-adhesive strips.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniCalendar Deskto.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/unicalendar-desktop-model-2-wbbucdpb-300x300.jpg",
+        "price": "&euro;&nbsp;5,96 &ndash; &euro;&nbsp;6,54 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "15 x 15 cm Bulk Packaging",
+              "15 x 15 cm Consumer Packaging",
+              "15 x 20 cm Bulk Packaging",
+              "15 x 20 cm Consumer Packaging"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189171",
+        "name": "Peel &amp; Stick Calendar Home",
+        "category": "calendars",
+        "categoryIds": [
+          "calendars",
+          "punch-binding-systems"
+        ],
+        "description": "Use your own photo prints to create a personalised wall mounted calendar at home.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/unicalendar-wall-model-finish2-wbbuchdr-269x300.jpg",
+        "price": "&euro;&nbsp;5,96 &ndash; &euro;&nbsp;6,54 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "15 x 20 cm Bulk Packaging",
+              "15 x 20 cm Consumer Packaging"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189143",
+        "name": "Peel &amp; Stick Calendar Pro - Wall Model",
+        "category": "calendars",
+        "categoryIds": [
+          "calendars",
+          "punch-binding-systems"
+        ],
+        "description": "Use your own photo prints to create a personalised wall mounted calendar in the shop.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/unicalendar-wall-model-noyear2-wbbucpr-269x300.jpg",
+        "price": "&euro;&nbsp;4,09 &ndash; &euro;&nbsp;5,02 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "6 x 8 inch Bulk Packaging",
+              "6 x 8 inch Sleeve Packaging",
+              "8 x 10 inch Bulk (20 x 25 cm)",
+              "8 x 10 inch Sleeve (20 x 25 cm)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189070",
+        "name": "Flat Bed Foil Prints Foils",
+        "category": "flat-bed-foil-printer",
+        "categoryIds": [
+          "flat-bed-foil-printer",
+          "ondemandpers",
+          "personalisation-systems"
+        ],
+        "description": "These foils are used with our Flat Bed Foil Printer which allows you to personalise your hardcovers, wedding invitations, business cards and much more. Make your work stand out.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniFoil Ribbon.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/ufp-foil-001-wbbufprfoil-300x300.jpg",
+        "price": "&euro;&nbsp;61,85 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Group A - Metal Blue",
+              "Group A - Metal Gold",
+              "Group A - Metal Red",
+              "Group A - Metal Silver",
+              "Group B - Metal Blue",
+              "Group B - Metal Gold",
+              "Group B - Metal Red",
+              "Group B - Metal Rose Gold",
+              "Group B - Metal Silver",
+              "Group C - Metal Gold",
+              "Group C - Metal Silver",
+              "Group D - Black",
+              "Group E - White"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "189052",
+        "name": "V-Paper A3",
+        "category": "lay-flat-paper",
+        "categoryIds": [
+          "lay-flat-paper",
+          "printing"
+        ],
+        "description": "\u003Cp\u003EPerfect with our Thermal A3 HardCovers! The combination of three techniques, creasing, folding and pressing, twists the paper near the edge, ensuring that bound documents of any size lay completely flat. The high-quality V-Paper allows you to print on both sides of the sheet without compromising on quality, reducing your paper consumption by as much as 30 percent.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Vpaper.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/vpaper-landscapeportrait-wbbvpapera3-300x300.jpg",
+        "price": "",
+        "attributes": []
+      },
+      {
+        "id": "189025",
+        "name": "V-Paper A4",
+        "category": "lay-flat-paper",
+        "categoryIds": [
+          "lay-flat-paper",
+          "printing"
+        ],
+        "description": "\u003Cp\u003EPerfect with our Thermal Covers! The combination of three techniques, creasing, folding and pressing, twists the paper near the edge, ensuring that bound documents of any size lay completely flat. The high-quality V-Paper allows you to print on both sides of the sheet without compromising on quality, reducing your paper consumption by as much as 30 percent.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Vpaper.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/vpaper-landscapeportrait-wbbvpapera4-300x300.jpg",
+        "price": "&euro;&nbsp;104,61 &ndash; &euro;&nbsp;124,12 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_lotpaper",
+            "options": [
+              "120 grams",
+              "160 grams"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188997",
+        "name": "V-Paper A4 SRA4",
+        "category": "lay-flat-paper",
+        "categoryIds": [
+          "lay-flat-paper",
+          "printing"
+        ],
+        "description": "\u003Cp\u003EThe combination of three techniques, creasing, folding and pressing, twists the paper near the edge, ensuring that bound documents of any size lay completely flat. The high-quality V-Paper allows you to print on both sides of the sheet without compromising on quality, reducing your paper consumption by as much as 30 percent.\u003C/p\u003E\n\u003Cp\u003ESRA4 is used to print full bleed pages.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Vpaper.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/vpaper-landscape-portrait-sra4-wbbvpapera4s-300x300.jpg",
+        "price": "&euro;&nbsp;29,26 &ndash; &euro;&nbsp;34,19 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_lotpaper",
+            "options": [
+              "120 grams",
+              "160 grams"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188979",
+        "name": "Peel &amp; Stick PhotoBook 10x15 (4x6), 12 Peel&amp;Stick Pages",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books",
+          "retail-product-range"
+        ],
+        "description": "\u003Cp\u003EPeel &amp; Stick Photo Book for 12 photos measuring 10x15 cm. Colour: Black\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Self-Adhesive Photo Book.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/wesspaps603-photobook-peel-and-stick-black-open-wbbwesspaps603-300x300.jpg",
+        "price": "&euro;&nbsp;8,90 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Red"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188912",
+        "name": "Clamp Hard Cover",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "\u003Cp\u003ECreate an elegant and professional looking Hard Cover without any machine. With this Clamp Hard Cover you receive 25 sheets of high quality V-paper. It is very easy to use: bundle your prints or documents, slide into the clamp and then slide it back in the spine.\u003C/p\u003E\n\u003Cp\u003EThe result: A lay-flat Hard Cover.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as Unicover Clamp.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/peleman-clamp-cover-menu-blue-wbbweuubcla-300x300.jpg",
+        "price": "&euro;&nbsp;11,13 &ndash; &euro;&nbsp;13,18 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A3 Landscape",
+              "A4 Landscape",
+              "A4 Portrait"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black",
+              "Black Leather",
+              "Bordo",
+              "Dark Blue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188894",
+        "name": "SteelBook for Staple Steelbinding with Window 60x95mm",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "A hardcover book with pre-cut window in the front cover and self-adhesive Binding Sheets enclosed.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as My SteelBook, UniCover Staple Hard.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/erez_steelbookstaple_offer-recipes3-wwbqmy1-300x231.jpg",
+        "price": "&euro;&nbsp;6,50 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Portrait",
+              "A4 Portrait Consumer Packaging"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188807",
+        "name": "MyBook Collection",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "For the love of photography. Ready-to-use photo books. These photo booklets of 10x15 cm are easy to use.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/photobook10x15-offset-wwbqmy6-300x300.jpg",
+        "price": "&euro;&nbsp;6,50 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "10 x 15 cm",
+              "10 x 15 cm consumer packaging"
+            ]
+          },
+          {
+            "name": "pa_finish",
+            "options": [
+              "Animals",
+              "Baby",
+              "Black Silk",
+              "Congratulations",
+              "Holiday Summer",
+              "Holiday Winter",
+              "Sweet Love",
+              "Thank You"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188774",
+        "name": "Photo Book for Staple Steelbinding with Window 76x106mm",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "\u003Cp align=\"LEFT\"\u003EStaple photo books are a quick and easy to use photo presentation solution.\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as My SteelBook, UniCover Staple Hard.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/photobookstaple-ba-front-wwbqmy7-300x300.jpg",
+        "price": "&euro;&nbsp;6,50 &ndash; &euro;&nbsp;9,19 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "A4 Landscape",
+              "A4 Landscape Consumer Packaging"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black Silk",
+              "White Pearl"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188706",
+        "name": "Linen Photo Books with Window",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "machineless-binding"
+        ],
+        "description": "A classic linen cloth hardcover book with a die-cut window in the cover.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/red-blue-photobook-window-wwbweuubst-300x300.jpg",
+        "price": "&euro;&nbsp;4,58 &ndash; &euro;&nbsp;6,13 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": [
+              "15 x 20 cm Landscape",
+              "20 x 20 cm",
+              "20 x 30 cm Landscape"
+            ]
+          },
+          {
+            "name": "pa_color",
+            "options": [
+              "Black Silk",
+              "Champagne",
+              "Dark Blue",
+              "Red"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "188673",
+        "name": "Sereni Memory Box with A4 PhotoBook",
+        "category": "photo-books",
+        "categoryIds": [
+          "photo-books"
+        ],
+        "description": "\u003Cp\u003EMemories of a departed loved one are there to be cherished, to be cared for. A need that is conveniently addressed by this memory box. Relatives provide you with their \u003Cstrong\u003Efavourite photos\u003C/strong\u003E. You then create a premium photo book using the handy \u003Cstrong\u003EPeleman Photo Editor\u003C/strong\u003E with numerous ready-made designs. Order and you're done. The family can then store the photo book neatly in an accompanying \u003Cstrong\u003Ecustom storage box.\u003C/strong\u003E\u003C/p\u003E\n\u003Cp\u003EA tangible keepsake with lots of emotional value. TIP: order several memorial boxes, e.g. one for each loved one.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/cover-white-wbb2522sereni-300x300.png",
+        "price": "&euro;&nbsp;29,39 &ndash; &euro;&nbsp;36,72 Excl. VAT",
+        "attributes": [
+          {
+            "name": "pa_color",
+            "options": [
+              "Sereni Photobook Full Colour"
+            ]
+          },
+          {
+            "name": "pa_spine",
+            "options": [
+              "Spine 40 - 91 to 150 photos",
+              "Spine 40 - Max 90 photos",
+              "Spine 60 - 151 to 200 photos",
+              "Spine 80 - 201 to 270 photos"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "167317",
+        "name": "Slide-In Calendar 20x25 (8” x 10”) incl stand",
+        "category": "calendars",
+        "categoryIds": [
+          "calendars"
+        ],
+        "description": "\u003Cp\u003EOrganise your year stylishly with the Peleman Slide-In Calendar. Change month pages easily thanks to the handy slide-in system and personalise your calendar with your own colours or logo! Made of durable materials, perfect for both home and office. Give it to yourself as a gift, or to someone else.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/slide-in-calendar-1-wbbucsli08xx10-300x300.jpg",
+        "price": "&euro;&nbsp;54,69 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "167306",
+        "name": "Diamond 1 W/Half Moon Punch",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "A perforator that makes a half moon notch at the top of the calendar pages. This facilitates easy page turning.",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/wusad1dd21p4-stapler-half-moon-notch-wbbwusad1d21p4-300x300.jpg",
+        "price": "&euro;&nbsp;335,85 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "162937",
+        "name": "Hard Cover Maker 350",
+        "category": "ondemandcasem",
+        "categoryIds": [
+          "ondemandcasem"
+        ],
+        "description": "\u003Cp\u003EThe Hard Cover 350 is a user-friendly, cost-efficient customisation system, designed to match the growing demand for customised hard covers.The Hard Cover Maker 350 allows you to create customised covers or displays using a 100% dry, easy process.The Hard Cover 350 is the perfect customisation solution for all your one-offs or short-run productions.\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as CaseMaker 350.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/2518uq350a1-hard-cover-maker-350-wbb2518uq350m1-300x300.jpg",
+        "price": "&euro;&nbsp;2.526,66 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "149660",
+        "name": "Maintenance Box Print-in A3",
+        "category": "print-in",
+        "categoryIds": [
+          "print-in",
+          "printinaccessor"
+        ],
+        "description": "\u003Cp\u003EExtend the life of your printer. The Maintenance Box effectively cleans the print heads, expanding the lifespan of your Epson Printer. Easy to install and to replace. A notification on the panel will suggest when and how to change the Box.\u003C/p\u003E\n\u003Cp\u003ECompatible with Epson SureColor SC-F500, A3\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/epson-a3-maintenance-box-wbbmaintboxpripra3-300x300.jpg",
+        "price": "&euro;&nbsp;70,78 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "149654",
+        "name": "Maintenance Box Print-in A4",
+        "category": "print-in",
+        "categoryIds": [
+          "print-in",
+          "printinaccessor"
+        ],
+        "description": "\u003Cp\u003EExtend the life of your printer. The Maintenance Box effectively cleans the print heads, expanding the lifespan of your Epson Printer. Easy to install and to replace. A notification on the panel will suggest when and how to change the Box.\u003C/p\u003E\n\u003Cp\u003ECompatible with Epson SureColor SC-F100, A4\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/epson-a4-maintenance-box-wbbmaintboxpripra4-300x300.jpg",
+        "price": "&euro;&nbsp;59,40 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "149139",
+        "name": "Print Cover FlexCover 2 fold - A4 Portrait spine 40",
+        "category": "printcovers",
+        "categoryIds": [
+          "printcovers"
+        ],
+        "description": "\u003Cp\u003EGive your Flex Cover an incredible look. Our new product, Print Cover, allows you to print any design on the outside of your Flex Cover. Wrap it around the cover of your document, and you’re ready to go!\u003C/p\u003E\n\u003Cp\u003EIt has a very soft touch look and feel, looks professional and is easy to use. Caring about details doesn’t have to be difficult.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/print-cover-flexcover-1-100-wbbpricofa4p402wh-300x300.jpg",
+        "price": "&euro;&nbsp;3,13 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "149129",
+        "name": "Print Cover FlexCover 4 fold - A4 Portrait spine 40",
+        "category": "printcovers",
+        "categoryIds": [
+          "printcovers"
+        ],
+        "description": "\u003Cp\u003EGive your Flex Cover an incredible look. Our new product, Print Cover, allows you to print any design on the in- AND outside of your document. Wrap it around the spine and the in- and outside of the cover and you’re ready to go!\u003C/p\u003E\n\u003Cp\u003EIt has a very soft touch look and feel, looks professional and is easy to use. Caring about details doesn’t have to be difficult.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/print-cover-flexcover-1-100-wbbpricofa4p404wh-300x300.jpg",
+        "price": "&euro;&nbsp;5,33 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "149119",
+        "name": "Print Cover Hardcover - A4 Portrait spine 40",
+        "category": "printcovers",
+        "categoryIds": [
+          "printcovers"
+        ],
+        "description": "\u003Cp\u003EOur new product, Print Cover, allows you to print any design on the outside of your document. It’s a cover that wraps around your document, fully covering the spine and including flaps that adhere to the inside. Wrap and stick it around your document and you’re ready to go!\u003C/p\u003E\n\u003Cp\u003EIt has a very soft look and feel, looks professional and is easy to use. Caring about details doesn’t have to be difficult.\u003C/p\u003E\n\n",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/04/print-cover-hardcover-1-100-wbbpricoha4p40wh-300x300.jpg",
+        "price": "&euro;&nbsp;3,63 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "141351",
+        "name": "Wiro Binding Machine S310",
+        "category": "binding",
+        "categoryIds": [
+          "binding",
+          "punch-binding"
+        ],
+        "description": "\u003Cp\u003EBind up to 140 sheets with this Wiro Binding Machine. The Wiro Binding Machine S310 adds a professional touch to your bound documents. Metal rings are available in different sizes and two colours. Turning over pages is a breeze as each document can lie fully flat, thanks to the rings. This binding system uses the international 3:1\" standard with 34 punch holes and can punch hole 10 pages at once.\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as WireBinder.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/pbmwus31000-wirobinder-wbbpbmwus31000-300x300.jpg",
+        "price": "&euro;&nbsp;523,45 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "130807",
+        "name": "Cover Tower",
+        "category": "thermal-binding-accessories",
+        "categoryIds": [
+          "thermal-binding-accessories"
+        ],
+        "description": "\u003Cp\u003EThe Cover Tower is the perfect storage system for your covers. It is also the ideal stand for your Binding Machines. Simply store all your Thermal Binding Machine covers in the Cover Tower, keeping them within easy reach.\u003C/p\u003E\n\n\u003Cbr\u003E\u003Cp\u003EThis product was formerly known as UniTower, Workstation.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/acwstwh0001-covertower2018-1-wbbacwstwh0001-300x300.jpg",
+        "price": "&euro;&nbsp;55,08 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "119939",
+        "name": "Photobox with Peel &amp; Stick Frame",
+        "category": "uncategorized",
+        "categoryIds": [
+          "uncategorized"
+        ],
+        "description": "\u003Cp\u003EThis solid photo box collects 20 standard size (10x15cm) photos. Not only nice as a gift, but also a unique way to store photos. The magnetic closure keeps everything neatly in place. The top can be personalised with a Peel &amp; Stick Frame, without additional equipment or glue.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/photobox-front-wbbphbox10x15pfba-300x300.jpg",
+        "price": "&euro;&nbsp;7,26 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "119931",
+        "name": "Wood Hanger",
+        "category": "uncategorized",
+        "categoryIds": [
+          "uncategorized"
+        ],
+        "description": "\u003Cp\u003EThis 8” stylish poster hanger in wood is a nice alternative to classic picture frames. It is also very popular for personalised calendars. The prints are held in place using wooden cleats top and bottom. It takes only a few seconds to assemble the wood hanger.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/woodhanger-with-picture-wbbwoodhanger-300x300.jpg",
+        "price": "&euro;&nbsp;3,62 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "110103",
+        "name": "Print-In Thermal Tape 20mm - 33m",
+        "category": "print-in",
+        "categoryIds": [
+          "print-in"
+        ],
+        "description": "\u003Cp\u003EThis Print-In Thermal tape ensures perfect steadiness of the Print-In plate during the sublimation process on the heat press. By fixing the plate to the paper with this tape, unwanted shadow prints are avoided when opening the press. The Thermal Tape is designed for use under high temperatures so that a perfect result is guaranteed.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/print-in-thermal-tape-01-wbbspprintintape-300x200.png",
+        "price": "&euro;&nbsp;16,55 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "106418",
+        "name": "Peleman Box Basic",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "The Hard Cover Basic version of our Peleman Box allows you to fully create your own design with the Hard Cover Maker 650.\r\nIt is available in three sizes:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003EA4 - 90mm\u003C/li\u003E\r\n \t\u003Cli\u003EA4 - 45mm\u003C/li\u003E\r\n \t\u003Cli\u003EA5 - 40mm\u003C/li\u003E\r\n\u003C/ul\u003E\r\nEach Peleman Box consists of three parts:\r\n\u003Cul\u003E\r\n \t\u003Cli\u003ETop plate\u003C/li\u003E\r\n \t\u003Cli\u003EBottom plate\u003C/li\u003E\r\n \t\u003Cli\u003EClips\u003C/li\u003E\r\n\u003C/ul\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/hcb-peleman-box-wbbpbb-300x200.png",
+        "price": "",
+        "attributes": [
+          {
+            "name": "pa_size",
+            "options": []
+          }
+        ]
+      },
+      {
+        "id": "106001",
+        "name": "Hard Cover Basic Identification Board",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003EProduce a table stand in your look-and-feel with the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\"\u003EHard Cover Maker 650\u003C/a\u003E. Stylish finish in leather look, suede or Kashmir touch.\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/hcb-identification-board-wbbc120140rcd-300x200.png",
+        "price": "&euro;&nbsp;3,21 Excl. VAT",
+        "attributes": []
+      },
+      {
+        "id": "105995",
+        "name": "Hard Cover Basic Coaster Board",
+        "category": "hard-cover-basic",
+        "categoryIds": [
+          "hard-cover-basic"
+        ],
+        "description": "\u003Cp\u003ECreate customised coasters with the Hard Cover Basic Coaster Board. With a length and width of 10cm and can be made with the \u003Ca href=\"/product/hard-cover-maker-650/\" target=\"_blank\" rel=\"noopener\"\u003EHard Cover Maker 650\u003C/a\u003E. Includes black mirror sheets\u003C/p\u003E",
+        "image": "https://staging.peleman.com/wp-content/uploads/2025/01/hcb-coaster-wbbc100100rcd-300x200.png",
+        "price": "&euro;&nbsp;1,37 Excl. VAT",
+        "attributes": []
+      }
+    ]
+  }
