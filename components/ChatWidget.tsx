@@ -69,6 +69,12 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   });
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  // Store the initial updatedAt timestamp - only set once when component mounts
+  const sessionStartTimeRef = useRef<number>((() => {
+    const stored = readStoredState();
+    // If we have valid stored state, use its updatedAt, otherwise start new session
+    return stored?.updatedAt || Date.now();
+  })());
 
   const { isWordPress } = getConfig();
 
@@ -129,8 +135,9 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   }, [messages, isOpen]);
 
   useEffect(() => {
+    // Use the session start time, not current time, to prevent TTL from resetting
     writeStoredState({
-      updatedAt: Date.now(),
+      updatedAt: sessionStartTimeRef.current,
       isOpen,
       messages
     });
@@ -138,8 +145,9 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
 
   useEffect(() => {
     const handlePageHide = () => {
+      // Use the session start time when page is closing
       writeStoredState({
-        updatedAt: Date.now(),
+        updatedAt: sessionStartTimeRef.current,
         isOpen,
         messages
       });
@@ -318,8 +326,10 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
         text: 'Hello! Welcome to Peleman. 👋\nI can help you find the right product. Are you shopping for yourself or as a gift?'
       };
       setMessages([welcomeMessage]);
+      // Start a new session when clearing chat
+      sessionStartTimeRef.current = Date.now();
       writeStoredState({
-        updatedAt: Date.now(),
+        updatedAt: sessionStartTimeRef.current,
         isOpen,
         messages: [welcomeMessage]
       });
