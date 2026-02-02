@@ -144,9 +144,10 @@ function peleman_update_catalog_cache($lang = null) {
         ];
     }, $categories);
 
+    // Get all published products (no limit to ensure all products are included)
     $products = wc_get_products([
         'status' => 'publish',
-        'limit' => 500, // Increased limit for better coverage
+        'limit' => -1, // -1 means get all products, no pagination needed
         'orderby' => 'date',
         'order' => 'DESC',
         'return' => 'objects'

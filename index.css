@@ -10,3 +10,8 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+/* Chat widget header h3 margin */
+#peleman-chatbot-root h3 {
+    margin-top: 10px;
+}

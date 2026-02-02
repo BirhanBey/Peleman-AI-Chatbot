@@ -342,7 +342,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
       {isOpen && (
         <div className="mb-4 w-[380px] md:w-[460px] h-[580px] md:h-[680px] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 animate-in slide-in-from-bottom-10 fade-in duration-300">
           {/* Header */}
-          <div className="bg-red-700 p-4 flex justify-between items-center text-white">
+          <div className="bg-[#e0451f] p-4 flex justify-between items-center text-white">
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <img 
@@ -354,7 +354,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
                   target.style.display = 'none';
                 }}
               />
-              <h3 className="font-semibold">Peleman Asistan</h3>
+              <h3 className="font-semibold text-white">Peleman Assistant</h3>
             </div>
             <div className="flex items-center gap-2">
               <button 
@@ -512,10 +512,32 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-red-700 hover:bg-red-800 text-white p-4 rounded-full shadow-lg transition-all hover:scale-105 flex items-center gap-2 group"
+        className="relative bg-[#f05023] hover:bg-[#e0451f] text-white px-5 py-4 rounded-2xl shadow-[0_8px_24px_rgba(240,80,35,0.4)] hover:shadow-[0_12px_32px_rgba(240,80,35,0.5)] transition-all duration-300 hover:scale-105 flex items-center gap-3 group overflow-hidden"
+        style={{
+          background: 'linear-gradient(135deg, #f05023 0%, #e0451f 100%)'
+        }}
       >
-        {isOpen ? <X size={24} /> : <MessageCircle size={24} />}
-        {!isOpen && <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-medium">How can I help?</span>}
+        {/* Pulse animation ring */}
+        {!isOpen && (
+          <span className="absolute inset-0 rounded-2xl bg-[#f05023] opacity-75 animate-ping"></span>
+        )}
+        
+        {/* Content */}
+        <div className="relative z-10 flex items-center gap-3">
+          {isOpen ? (
+            <X size={22} className="flex-shrink-0" />
+          ) : (
+            <>
+              <MessageCircle size={22} className="flex-shrink-0" />
+              <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-semibold text-sm tracking-wide">
+                How can I help?
+              </span>
+            </>
+          )}
+        </div>
+        
+        {/* Shine effect on hover */}
+        <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 -translate-x-full group-hover:translate-x-full"></div>
       </button>
     </div>
   );
