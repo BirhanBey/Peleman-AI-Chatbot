@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { MessageCircle, X, Send, ChevronRight, Loader2, Trash2 } from 'lucide-react';
+import { MessageCircle, X, Send, ChevronRight, Loader2, Trash2, LogIn } from 'lucide-react';
 import { ChatMessage, Category, Product } from '../types';
 import { sendMessageToGemini } from '../services/gemini';
 import { fetchCatalog } from '../services/catalog';
 import { CATEGORIES, PRODUCTS } from '../data/mockData';
 import { getConfig } from '../config';
+import { getBrowserLanguage, getTranslation } from '../translations';
 
 interface ChatWidgetProps {
   // Updated prop to accept the full Category object
@@ -42,6 +43,7 @@ const writeStoredState = (state: StoredChatState) => {
   }
 };
 
+
 const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   const [isOpen, setIsOpen] = useState(() => {
     const stored = readStoredState();
@@ -53,19 +55,37 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   const [products, setProducts] = useState<Product[]>([]);
   const [catalogLoaded, setCatalogLoaded] = useState(false);
   const [catalogError, setCatalogError] = useState<string | null>(null);
+  
+  const config = getConfig();
+  const { isWordPress, isLoggedIn, currentUser, loginUrl } = config;
+  const browserLang = getBrowserLanguage();
+  const t = getTranslation(browserLang);
+
+  const getWelcomeMessage = (): ChatMessage => {
+    const welcomeText = isLoggedIn && currentUser
+      ? t.welcome.loggedIn(currentUser.name)
+      : t.welcome.guest;
+    
+    return {
+      id: 'welcome',
+      sender: 'bot',
+      text: welcomeText
+    };
+  };
+
   const [messages, setMessages] = useState<ChatMessage[]>(() => {
     const stored = readStoredState();
     if (stored && stored.messages.length > 0) {
+      // Check if first message is welcome message and update it if user is logged in
+      const firstMsg = stored.messages[0];
+      if (firstMsg && firstMsg.id === 'welcome') {
+        // Return updated welcome message based on current login status
+        return [getWelcomeMessage()];
+      }
       return stored.messages;
     }
 
-    return [
-      {
-        id: 'welcome',
-        sender: 'bot',
-        text: 'Hello! Welcome to Peleman. 👋\nI can help you find the right product. Are you shopping for yourself or as a gift?'
-      }
-    ];
+    return [getWelcomeMessage()];
   });
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -76,7 +96,27 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     return stored?.updatedAt || Date.now();
   })());
 
-  const { isWordPress } = getConfig();
+  // Update welcome message when login status or language changes
+  useEffect(() => {
+    const welcomeText = isLoggedIn && currentUser
+      ? t.welcome.loggedIn(currentUser.name)
+      : t.welcome.guest;
+    
+    setMessages(prev => {
+      // If first message is welcome message, update it
+      if (prev.length > 0 && prev[0].id === 'welcome') {
+        // Only update if the text is different
+        if (prev[0].text !== welcomeText) {
+          return [{
+            id: 'welcome',
+            sender: 'bot',
+            text: welcomeText
+          }, ...prev.slice(1)];
+        }
+      }
+      return prev;
+    });
+  }, [isLoggedIn, currentUser?.name, browserLang]);
 
   useEffect(() => {
     let isMounted = true;
@@ -190,7 +230,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
         {
           id: Date.now().toString(),
           sender: 'bot',
-          text: 'Catalog is still loading. Please try again in a moment.'
+          text: t.catalog.loading
         }
       ]);
       return;
@@ -202,7 +242,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
         {
           id: Date.now().toString(),
           sender: 'bot',
-          text: 'Catalog could not be loaded. Please refresh the page and try again.'
+          text: t.catalog.error
         }
       ]);
       return;
@@ -224,7 +264,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     }));
 
     try {
-      const response = await sendMessageToGemini(history, userMsg.text, effectiveCategories, effectiveProducts);
+      const response = await sendMessageToGemini(history, userMsg.text, effectiveCategories, effectiveProducts, currentUser || null, browserLang);
 
       let recommendedCategories: Category[] = [];
       let recommendedProducts: Product[] = [];
@@ -281,7 +321,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     setMessages(prev => [...prev, {
       id: Date.now().toString(),
       sender: 'bot',
-      text: `Great choice! Taking you to the ${cat.name} page...`
+      text: t.navigation.category(cat.name)
     }]);
     
     // Delay slightly to let the user read the message
@@ -296,7 +336,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
       setMessages(prev => [...prev, {
         id: Date.now().toString(),
         sender: 'bot',
-        text: `Taking you to ${product.name}...`
+        text: t.navigation.product(product.name)
       }]);
       
       // Delay slightly to let the user read the message
@@ -310,7 +350,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
       setMessages(prev => [...prev, {
         id: Date.now().toString(),
         sender: 'bot',
-        text: `Taking you to ${product.name}...`
+        text: t.navigation.product(product.name)
       }]);
       setTimeout(() => {
         window.location.href = productUrl;
@@ -319,12 +359,8 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   };
 
   const handleClearChat = () => {
-    if (confirm('Are you sure you want to clear the chat history?')) {
-      const welcomeMessage: ChatMessage = {
-        id: 'welcome',
-        sender: 'bot',
-        text: 'Hello! Welcome to Peleman. 👋\nI can help you find the right product. Are you shopping for yourself or as a gift?'
-      };
+    if (confirm(t.chat.clearConfirm)) {
+      const welcomeMessage = getWelcomeMessage();
       setMessages([welcomeMessage]);
       // Start a new session when clearing chat
       sessionStartTimeRef.current = Date.now();
@@ -372,6 +408,28 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
 
           {/* Messages Area */}
           <div className="flex-1 overflow-y-auto p-4 bg-slate-50 scrollbar-hide">
+            {/* Login Prompt for Non-Logged-In Users */}
+            {!isLoggedIn && (
+              <div className="mb-4 p-4 bg-blue-50 border border-blue-200 rounded-xl">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 mt-0.5">
+                    <LogIn size={20} className="text-blue-600" />
+                  </div>
+                  <div className="flex-1">
+                    <p className="text-sm text-slate-700 mb-2">
+                      {t.loginPrompt.message}
+                    </p>
+                    <a 
+                      href={loginUrl}
+                      className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                    >
+                      <LogIn size={16} />
+                      {t.loginPrompt.button}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            )}
             <div className="flex flex-col gap-4">
             {messages.map((msg) => (
               <div key={msg.id} className="w-full flex flex-col gap-3 relative">
@@ -494,7 +552,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-                placeholder="Type your message..."
+                placeholder={t.chat.placeholder}
                 className="flex-1 bg-slate-100 border-0 rounded-full px-4 py-2 text-sm focus:ring-2 focus:ring-red-500 focus:outline-none text-slate-900"
               />
               <button
@@ -530,7 +588,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
             <>
               <MessageCircle size={22} className="flex-shrink-0" />
               <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-in-out whitespace-nowrap font-semibold text-sm tracking-wide">
-                How can I help?
+                {t.chat.howCanHelp}
               </span>
             </>
           )}

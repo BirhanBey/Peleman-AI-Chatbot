@@ -45,6 +45,13 @@ export interface GeminiResponse {
   productIds?: string[];
 }
 
+// User interface for logged-in users
+export interface CurrentUser {
+  id: number;
+  name: string;
+  email: string;
+}
+
 // Extend the global Window interface to accept settings from WordPress PHP
 declare global {
   interface Window {
@@ -54,6 +61,9 @@ declare global {
       siteUrl?: string;
       ajaxUrl?: string;
       brandIcon?: string;
+      isLoggedIn?: boolean;
+      currentUser?: CurrentUser | null;
+      loginUrl?: string;
     };
   }
 }

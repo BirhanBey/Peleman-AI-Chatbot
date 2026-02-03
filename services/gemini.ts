@@ -1,6 +1,7 @@
 import { GoogleGenAI, Type } from '@google/genai';
-import { Category, GeminiResponse, Product } from '../types';
+import { Category, GeminiResponse, Product, CurrentUser } from '../types';
 import { getConfig } from '../config';
+import { SupportedLanguage } from '../translations';
 
 let ai: GoogleGenAI | null = null;
 
@@ -65,9 +66,55 @@ const formatProductsForPrompt = (products: Product[], maxItems = 200) => {
   });
 };
 
-const buildSystemInstruction = (categories: Category[], products: Product[]) => `
+// Map supported language codes to language names for AI
+const getLanguageName = (lang: SupportedLanguage): string => {
+  const langMap: Record<SupportedLanguage, string> = {
+    tr: 'Turkish',
+    de: 'German',
+    fr: 'French',
+    nl: 'Dutch',
+    en: 'English',
+    es: 'Spanish',
+    gr: 'Greek'
+  };
+  return langMap[lang] || 'English';
+};
+
+const buildSystemInstruction = (
+  categories: Category[],
+  products: Product[],
+  currentUser: CurrentUser | null = null,
+  browserLanguage: SupportedLanguage = 'en'
+) => {
+  const userGreeting = currentUser
+    ? `The user's name is ${currentUser.name}. Address them by name when appropriate, especially in greetings and when providing personalized responses. Use their name naturally in conversation.`
+    : '';
+
+  const languageName = getLanguageName(browserLanguage);
+
+  // Get greeting examples for the browser language
+  const getGreetingExample = (lang: SupportedLanguage): string => {
+    const greetings: Record<SupportedLanguage, string> = {
+      tr: 'Merhaba! Peleman\'a hoş geldiniz. Size nasıl yardımcı olabilirim?',
+      de: 'Hallo! Willkommen bei Peleman. Wie kann ich Ihnen helfen?',
+      fr: 'Bonjour! Bienvenue chez Peleman. Comment puis-je vous aider?',
+      nl: 'Hallo! Welkom bij Peleman. Hoe kan ik u helpen?',
+      en: 'Hello! Welcome to Peleman. How can I help you today?',
+      es: '¡Hola! Bienvenido a Peleman. ¿Cómo puedo ayudarte?',
+      gr: 'Γεια σας! Καλώς ήρθατε στο Peleman. Πώς μπορώ να σας βοηθήσω;'
+    };
+    return greetings[lang] || greetings.en;
+  };
+
+  const languageInstruction = browserLanguage !== 'en'
+    ? `CRITICAL: The user's browser language is set to ${languageName} (${browserLanguage}). You MUST respond in ${languageName} from the very first message. Do NOT use English unless the user explicitly writes in English. Your first greeting should be: "${getGreetingExample(browserLanguage)}"`
+    : '';
+
+  return `
 You are a helpful sales assistant for the Peleman website.
 Your goal is to help customers find the right presentation, photo, or binding product.
+${userGreeting ? `\n${userGreeting}\n` : ''}
+${languageInstruction ? `\n${languageInstruction}\n` : ''}
 The available product categories are:
 ${categories.map((c) => `- ID: ${c.id}, Name: ${c.name}, Desc: ${c.description}`).join('\n')}
 
@@ -75,18 +122,22 @@ Popular products and attributes:
 ${formatProductsForPrompt(products).join('\n')}
 
 Behavior:
-1. Detect the user's language and respond in the same language. Support English, Dutch (Flemish), and Turkish. Default to English if unclear.
-2. If the user greets you, greet them warmly and ask who they are buying for or what they need (e.g., "Hello! Welcome to Peleman. How can I help today? Are you shopping for yourself or as a gift?").
+1. ${browserLanguage !== 'en' ? `CRITICAL: Always respond in ${languageName} (${browserLanguage}). ` : ''}Detect the user's language and respond in the same language. Support Turkish, German, French, Dutch, English, Spanish, and Greek. ${browserLanguage !== 'en' ? `Your default language is ${languageName} - use it unless the user explicitly writes in a different language.` : 'Default to English if unclear.'}
+2. If the user greets you or this is the first interaction, greet them warmly${currentUser ? ` by name (${currentUser.name})` : ''} in ${languageName}. Example: "${getGreetingExample(browserLanguage)}"
 3. If the user mentions "photobook", "album", "binding", or specific needs, recommend the relevant categories or products by setting 'responseType' to 'recommendation' and filling 'categoryIds' and/or 'productIds'.
 4. Only mention categories or products that exist in the provided lists. Never invent new product names, attributes, or categories.
 5. Keep responses concise, professional, and friendly.
+${currentUser ? `6. When addressing the logged-in user, use their name (${currentUser.name}) naturally in conversation, especially in greetings and when providing personalized assistance.` : ''}
 `;
+};
 
 export const sendMessageToGemini = async (
   history: { role: string; parts: { text: string }[] }[],
   userMessage: string,
   categories: Category[],
-  products: Product[]
+  products: Product[],
+  currentUser: CurrentUser | null = null,
+  browserLanguage: SupportedLanguage = 'en'
 ): Promise<GeminiResponse> => {
   try {
     const client = getAiClient();
@@ -100,7 +151,7 @@ export const sendMessageToGemini = async (
     const chat = client.chats.create({
       model: modelId,
       config: {
-        systemInstruction: buildSystemInstruction(categories, products),
+        systemInstruction: buildSystemInstruction(categories, products, currentUser, browserLanguage),
         responseMimeType: 'application/json',
         responseSchema: buildResponseSchema(categories, products),
       },

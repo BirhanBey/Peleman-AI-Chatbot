@@ -3,7 +3,7 @@
 Plugin Name: Peleman AI Chatbot
 Description: Adds a React-based Gemini AI chatbot to the footer of the website.
 Version: 1.0
-Author: Peleman Dev Team
+Author: Birhan Yorukoglu
 */
 
 if (!defined('ABSPATH')) {
@@ -24,12 +24,23 @@ function peleman_enqueue_scripts() {
     // This is how we securely pass the API Key or other WP settings to the frontend
     $brand_icon = plugin_dir_url(__FILE__) . 'assets/favicon.png';
     
+    // Check if user is logged in
+    $current_user = wp_get_current_user();
+    $is_logged_in = $current_user->ID > 0;
+    
     wp_localize_script('peleman-chat-js', 'pelemanSettings', [
         'apiKey' => get_option('peleman_gemini_api_key', ''), // Get from WP Database
         'siteUrl' => get_site_url(),
         'apiUrl' => rest_url('peleman-chatbot/v1'),
         'ajaxUrl' => admin_url('admin-ajax.php'),
-        'brandIcon' => $brand_icon
+        'brandIcon' => $brand_icon,
+        'isLoggedIn' => $is_logged_in,
+        'currentUser' => $is_logged_in ? [
+            'id' => $current_user->ID,
+            'name' => $current_user->display_name,
+            'email' => $current_user->user_email
+        ] : null,
+        'loginUrl' => wp_login_url(get_permalink()) // Login sayfası URL'i
     ]);
 }
 add_action('wp_enqueue_scripts', 'peleman_enqueue_scripts');
