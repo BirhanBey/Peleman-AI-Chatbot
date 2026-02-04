@@ -4,6 +4,8 @@
  * and falls back to environment variables for local development.
  */
 
+import { CurrentUser } from './types';
+
 export const getConfig = () => {
   const wpSettings = window.pelemanSettings || {};
 
@@ -20,7 +22,7 @@ export const getConfig = () => {
 
     // Login status and user info
     isLoggedIn: wpSettings.isLoggedIn || false,
-    currentUser: wpSettings.currentUser || null,
+    currentUser: (wpSettings.currentUser || null) as CurrentUser | null,
     loginUrl: wpSettings.loginUrl || '/wp-login.php'
   };
 };

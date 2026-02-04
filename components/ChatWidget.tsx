@@ -1,11 +1,33 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { MessageCircle, X, Send, ChevronRight, Loader2, Trash2, LogIn } from 'lucide-react';
+import { MessageCircle, X, Trash2 } from 'lucide-react';
 import { ChatMessage, Category, Product } from '../types';
-import { sendMessageToGemini } from '../services/gemini';
 import { fetchCatalog } from '../services/catalog';
 import { CATEGORIES, PRODUCTS } from '../data/mockData';
 import { getConfig } from '../config';
 import { getBrowserLanguage, getTranslation } from '../translations';
+import ChatModal from './ChatModal';
+import ChatContent from './ChatContent';
+
+// Resize icon component
+const ResizeIcon: React.FC<{ className?: string }> = ({ className = '' }) => (
+  <svg 
+    width="20" 
+    height="20" 
+    viewBox="0 0 16 16" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path 
+      d="M6.995,10.852 L5.133,9.008 L2.107,11.988 L0.062,9.972 L0.062,15.875 L6.049,15.875 L3.973,13.828 L6.995,10.852 Z" 
+      fill="currentColor"
+    />
+    <path 
+      d="M9.961,0.00800000003 L12.058,2.095 L9.005,5.128 L10.885,7.008 L13.942,3.97 L15.909,5.966 L15.909,0.00800000003 L9.961,0.00800000003 Z" 
+      fill="currentColor"
+    />
+  </svg>
+);
 
 interface ChatWidgetProps {
   // Updated prop to accept the full Category object
@@ -49,8 +71,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     const stored = readStoredState();
     return stored ? stored.isOpen : false;
   });
-  const [input, setInput] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [categories, setCategories] = useState<Category[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [catalogLoaded, setCatalogLoaded] = useState(false);
@@ -93,7 +114,6 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     return [getWelcomeMessage()];
   });
 
-  const messagesEndRef = useRef<HTMLDivElement>(null);
   // Store the initial updatedAt timestamp - only set once when component mounts
   const sessionStartTimeRef = useRef<number>((() => {
     const stored = readStoredState();
@@ -146,38 +166,7 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
 
   const effectiveCategories = isWordPress ? categories : (categories.length > 0 ? categories : CATEGORIES);
   const effectiveProducts = isWordPress ? products : (products.length > 0 ? products : PRODUCTS);
-  const categoryLookup = useMemo(
-    () => new Map(effectiveCategories.map((cat) => [cat.id, cat])),
-    [effectiveCategories]
-  );
-  const productLookup = useMemo(
-    () => new Map(effectiveProducts.map((product) => [product.id, product])),
-    [effectiveProducts]
-  );
 
-  const stripHtml = (value: string) => value.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
-  const decodeHtmlEntities = (value: string) =>
-    value
-      .replace(/&euro;/g, '€')
-      .replace(/&amp;/g, '&')
-      .replace(/&nbsp;/g, ' ')
-      .replace(/&ndash;/g, '–')
-      .replace(/&mdash;/g, '—')
-      .replace(/&quot;/g, '"')
-      .replace(/&#039;/g, "'");
-
-  const formatText = (value?: string) => {
-    if (!value) return '';
-    return decodeHtmlEntities(stripHtml(value));
-  };
-
-  const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  useEffect(() => {
-    scrollToBottom();
-  }, [messages, isOpen]);
 
   useEffect(() => {
     // Use the session start time, not current time, to prevent TTL from resetting
@@ -215,111 +204,6 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  // Check if a category was already shown in previous messages
-  const getShownCategoryIds = useMemo(() => {
-    const shownIds = new Set<string>();
-    messages.forEach(msg => {
-      if (msg.recommendedCategories) {
-        msg.recommendedCategories.forEach(cat => shownIds.add(cat.id));
-      }
-    });
-    return shownIds;
-  }, [messages]);
-
-  const handleSend = async () => {
-    if (!input.trim()) return;
-
-    if (isWordPress && !catalogLoaded) {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: Date.now().toString(),
-          sender: 'bot',
-          text: t.catalog.loading
-        }
-      ]);
-      return;
-    }
-
-    if (isWordPress && catalogError) {
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: Date.now().toString(),
-          sender: 'bot',
-          text: t.catalog.error
-        }
-      ]);
-      return;
-    }
-
-    const userMsg: ChatMessage = {
-      id: Date.now().toString(),
-      sender: 'user',
-      text: input
-    };
-
-    setMessages(prev => [...prev, userMsg]);
-    setInput('');
-    setIsLoading(true);
-
-    const history = messages.map(m => ({
-      role: m.sender === 'user' ? 'user' : 'model',
-      parts: [{ text: m.text }]
-    }));
-
-    try {
-      const response = await sendMessageToGemini(history, userMsg.text, effectiveCategories, effectiveProducts, currentUser || null, browserLang);
-
-      let recommendedCategories: Category[] = [];
-      let recommendedProducts: Product[] = [];
-      
-      if (response.responseType === 'recommendation') {
-        if (response.categoryIds) {
-          const newCategories = response.categoryIds
-            .map(id => categoryLookup.get(id))
-            .filter((c): c is Category => !!c);
-          
-          // Check if any of these categories were already shown
-          const alreadyShown = newCategories.some(cat => getShownCategoryIds.has(cat.id));
-          
-          if (alreadyShown && newCategories.length > 0) {
-            // If category was already shown, show products instead
-            const categoryId = newCategories[0].id;
-            const categoryProducts = effectiveProducts.filter(p => 
-              p.category === categoryId || p.categoryIds?.includes(categoryId)
-            );
-            recommendedProducts = categoryProducts.slice(0, 5); // Show max 5 products
-          } else {
-            recommendedCategories = newCategories;
-          }
-        }
-        
-        // Always add product recommendations if provided
-        if (response.productIds) {
-          const newProducts = response.productIds
-            .map(id => productLookup.get(id))
-            .filter((p): p is Product => !!p);
-          recommendedProducts = [...recommendedProducts, ...newProducts];
-        }
-      }
-
-      const botMsg: ChatMessage = {
-        id: (Date.now() + 1).toString(),
-        sender: 'bot',
-        text: response.message,
-        recommendedCategories: recommendedCategories.length > 0 ? recommendedCategories : undefined,
-        recommendedProducts: recommendedProducts.length > 0 ? recommendedProducts : undefined
-      };
-
-      setMessages(prev => [...prev, botMsg]);
-
-    } catch (error) {
-      console.error(error);
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   const handleCategoryClick = (cat: Category) => {
     // Add a system message saying we are navigating
@@ -378,10 +262,10 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-end font-sans">
+    <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-end font-sans" style={{maxHeight: '90vh'}}>
       {/* Chat Window */}
       {isOpen && (
-        <div className="mb-4 w-[380px] md:w-[460px] h-[580px] md:h-[680px] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 animate-in slide-in-from-bottom-10 fade-in duration-300">
+        <div className="mb-4 w-[23.75rem] md:w-[28.75rem] h-[36.25rem] md:h-[42.5rem] bg-white rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200 animate-in slide-in-from-bottom-10 fade-in duration-300" style={{maxWidth: '90%'}}>
           {/* Header */}
           <div className="bg-[#e0451f] p-4 flex justify-between items-center text-white">
             <div className="flex items-center gap-2">
@@ -405,170 +289,41 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
               >
                 <Trash2 size={18} />
               </button>
-              <button onClick={() => setIsOpen(false)} className="hover:bg-red-800 p-1 rounded transition-colors">
-                <X size={20} />
-              </button>
+              {isLoggedIn ? (
+                <button 
+                  onClick={() => {
+                    setIsOpen(false);
+                    setIsModalOpen(true);
+                  }} 
+                  className="hover:bg-red-800 p-1 rounded transition-colors"
+                  title="Open in modal"
+                >
+                  <ResizeIcon className="text-white" />
+                </button>
+              ) : (
+                <button onClick={() => setIsOpen(false)} className="hover:bg-red-800 p-1 rounded transition-colors">
+                  <X size={20} />
+                </button>
+              )}
             </div>
           </div>
 
-          {/* Messages Area */}
-          <div className="flex-1 overflow-y-auto p-4 bg-slate-50 scrollbar-hide">
-            {/* Login Prompt for Non-Logged-In Users */}
-            {!isLoggedIn && (
-              <div className="mb-4 p-4 bg-blue-50 border border-blue-200 rounded-xl">
-                <div className="flex items-start gap-3">
-                  <div className="flex-shrink-0 mt-0.5">
-                    <LogIn size={20} className="text-blue-600" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-sm text-slate-700 mb-2">
-                      {t.loginPrompt.message}
-                    </p>
-                    <a 
-                      href={loginUrl}
-                      className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
-                    >
-                      <LogIn size={16} />
-                      {t.loginPrompt.button}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )}
-            <div className="flex flex-col gap-4">
-            {messages.map((msg) => (
-              <div key={msg.id} className="w-full flex flex-col gap-3 relative">
-                {/* Message Text Bubble */}
-                {msg.text && (
-                  <div className={`flex w-full ${msg.sender === 'user' ? 'justify-end' : 'justify-start'}`}>
-                    <div
-                      className={`max-w-[85%] p-3 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap relative z-10 ${
-                        msg.sender === 'user'
-                          ? 'bg-red-600 text-white rounded-br-none'
-                          : 'bg-white border border-slate-200 text-slate-800 rounded-bl-none shadow-sm'
-                      }`}
-                    >
-                      {msg.text}
-                    </div>
-                  </div>
-                )}
-
-                {/* Render Recommendations if any */}
-                {(msg.recommendedCategories || msg.recommendedProducts) && (
-                  <div className="w-full grid grid-cols-1 gap-2 relative z-10">
-                    {msg.recommendedProducts?.map(product => (
-                      <button
-                        key={product.id}
-                        onClick={() => handleProductClick(product)}
-                        className="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200 hover:border-red-500 hover:shadow-md transition-all text-left group w-full cursor-pointer"
-                      >
-                        {product.image ? (
-                          <img 
-                            src={product.image} 
-                            alt={product.name} 
-                            className="w-16 h-16 object-cover rounded-lg bg-slate-200"
-                            onError={(e) => {
-                              const target = e.currentTarget;
-                              target.style.display = 'none';
-                              const fallback = target.nextElementSibling as HTMLElement;
-                              if (fallback) fallback.style.display = 'flex';
-                            }}
-                          />
-                        ) : null}
-                        <div 
-                          className={`w-16 h-16 flex items-center justify-center rounded-lg bg-slate-200 text-slate-500 text-xs font-semibold ${product.image ? 'hidden' : ''}`}
-                          style={{ display: product.image ? 'none' : 'flex' }}
-                        >
-                          {product.name.split(' ').slice(0, 2).map((w) => w[0]).join('').toUpperCase()}
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-slate-900 text-sm truncate group-hover:text-red-700">{product.name}</h4>
-                          {product.description && (
-                            <p className="text-xs text-slate-500 line-clamp-2">{formatText(product.description)}</p>
-                          )}
-                          {product.attributes && product.attributes.length > 0 && (
-                            <div className="mt-1 text-[11px] text-slate-500 space-y-0.5">
-                              {product.attributes.slice(0, 2).map((attr) => (
-                                <div key={attr.name} className="truncate">
-                                  <span className="font-semibold">{attr.name}:</span> {attr.options.join(', ')}
-                                </div>
-                              ))}
-                            </div>
-                          )}
-                          {product.price && (
-                            <p className="text-xs text-red-700 font-semibold mt-1">{formatText(product.price)}</p>
-                          )}
-                        </div>
-                        <ChevronRight size={16} className="text-slate-300 group-hover:text-red-500" />
-                      </button>
-                    ))}
-                    {msg.recommendedCategories?.map(cat => (
-                      <button
-                        key={cat.id}
-                        onClick={() => handleCategoryClick(cat)}
-                        className="flex items-center gap-3 bg-white p-2 rounded-xl border border-slate-200 hover:border-red-500 hover:shadow-md transition-all text-left group"
-                      >
-                        {cat.thumbnail ? (
-                          <img 
-                            src={cat.thumbnail} 
-                            alt={cat.name} 
-                            className="w-16 h-16 object-cover rounded-lg bg-slate-200"
-                            onError={(e) => {
-                              const target = e.currentTarget;
-                              target.style.display = 'none';
-                              const fallback = target.nextElementSibling as HTMLElement;
-                              if (fallback) fallback.style.display = 'flex';
-                            }}
-                          />
-                        ) : null}
-                        <div 
-                          className={`w-16 h-16 flex items-center justify-center rounded-lg bg-slate-200 text-slate-500 text-xs font-semibold ${cat.thumbnail ? 'hidden' : ''}`}
-                          style={{ display: cat.thumbnail ? 'none' : 'flex' }}
-                        >
-                          {cat.name.split(' ').slice(0, 2).map((w) => w[0]).join('').toUpperCase()}
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <h4 className="font-semibold text-slate-900 text-sm truncate group-hover:text-red-700">{cat.name}</h4>
-                          <p className="text-xs text-slate-500 truncate">{cat.description}</p>
-                        </div>
-                        <ChevronRight size={16} className="text-slate-300 group-hover:text-red-500" />
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-            </div>
-            {isLoading && (
-              <div className="flex items-start">
-                <div className="bg-white border border-slate-200 p-3 rounded-2xl rounded-bl-none shadow-sm">
-                  <Loader2 size={16} className="animate-spin text-slate-400" />
-                </div>
-              </div>
-            )}
-            <div ref={messagesEndRef} />
-          </div>
-
-          {/* Input Area */}
-          <div className="p-4 bg-white border-t border-slate-100">
-            <div className="flex gap-2">
-              <input
-                type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-                placeholder={t.chat.placeholder}
-                className="flex-1 bg-slate-100 border-0 rounded-full px-4 py-2 text-sm focus:ring-2 focus:ring-red-500 focus:outline-none text-slate-900"
-              />
-              <button
-                onClick={handleSend}
-                disabled={!input.trim() || isLoading}
-                className="bg-red-700 text-white p-2 rounded-full hover:bg-red-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                <Send size={18} />
-              </button>
-            </div>
-          </div>
+          {/* Chat Content - Shared component */}
+          <ChatContent
+            messages={messages}
+            setMessages={setMessages}
+            categories={effectiveCategories}
+            products={effectiveProducts}
+            catalogLoaded={catalogLoaded}
+            catalogError={catalogError}
+            isWordPress={isWordPress}
+            isLoggedIn={isLoggedIn}
+            currentUser={currentUser}
+            loginUrl={loginUrl}
+            onNavigateToCategory={handleCategoryClick}
+            onProductClick={handleProductClick}
+            isVisible={isOpen}
+          />
         </div>
       )}
 
@@ -602,6 +357,29 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
         {/* Shine effect on hover */}
         <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 -translate-x-full group-hover:translate-x-full"></div>
       </button>
+
+      {/* Chat Modal - Only for logged-in users */}
+      {isLoggedIn && (
+              <ChatModal
+                isOpen={isModalOpen}
+                onClose={() => {
+                  setIsModalOpen(false);
+                  setIsOpen(true); // Reopen small widget when modal closes
+                }}
+                currentUser={currentUser}
+                messages={messages}
+                setMessages={setMessages}
+                categories={effectiveCategories}
+                products={effectiveProducts}
+                catalogLoaded={catalogLoaded}
+                catalogError={catalogError}
+                isWordPress={isWordPress}
+                isLoggedIn={isLoggedIn}
+                loginUrl={loginUrl}
+                onNavigateToCategory={handleCategoryClick}
+                onProductClick={handleProductClick}
+              />
+      )}
     </div>
   );
 };
