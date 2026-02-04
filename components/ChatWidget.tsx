@@ -76,12 +76,17 @@ const ChatWidget: React.FC<ChatWidgetProps> = ({ onNavigateToCategory }) => {
   const [messages, setMessages] = useState<ChatMessage[]>(() => {
     const stored = readStoredState();
     if (stored && stored.messages.length > 0) {
-      // Check if first message is welcome message and update it if user is logged in
+      // Check if first message is welcome message and update it if needed
       const firstMsg = stored.messages[0];
       if (firstMsg && firstMsg.id === 'welcome') {
-        // Return updated welcome message based on current login status
-        return [getWelcomeMessage()];
+        // Update welcome message but keep all other messages
+        const updatedWelcome = getWelcomeMessage();
+        // Only update if the welcome text changed (login status or language)
+        if (firstMsg.text !== updatedWelcome.text) {
+          return [updatedWelcome, ...stored.messages.slice(1)];
+        }
       }
+      // Return all stored messages as-is
       return stored.messages;
     }
 
